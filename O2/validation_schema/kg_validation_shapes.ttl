@@ -1,0 +1,718 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix kg: <http://example.org/university-kg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ============================================================
+# SHACL validation rules for the clean University KG
+# ============================================================
+#
+# Core graph structure:
+#
+# Module
+#   HAS_WEEK -> Week
+#     COVERS -> Topic
+#       HAS_CONCEPT -> Concept
+#
+# Optional:
+#
+# Module / Week -> HAS_RESOURCE -> Resource
+# Module / Week -> HAS_ASSESSMENT -> Assessment
+# Week -> NEXT -> Week
+# Concept -> RELATED_TO -> Concept
+# Concept -> BUILDS_ON -> Concept
+# Concept -> PREREQUISITE_OF -> Concept
+#
+# Removed as node types:
+#
+# Definition
+# Example
+# Formula
+# Application
+#
+# These should not be created as graph nodes anymore.
+# If needed, store them as string properties on Concept:
+#
+# kg:description
+# kg:formula
+# kg:example
+# kg:application
+#
+# ============================================================
+
+
+# ============================================================
+# Module validation
+# ============================================================
+
+kg:ModuleShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Module ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:minLength 2 ;
+        sh:maxLength 120 ;
+        sh:message "Each Module must have a valid name." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:moduleCode ;
+        sh:datatype xsd:string ;
+        sh:maxLength 30 ;
+        sh:message "Module code must be a short string if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:academicYear ;
+        sh:datatype xsd:string ;
+        sh:maxLength 30 ;
+        sh:message "Academic year must be a short string if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_WEEK ;
+        sh:class kg:Week ;
+        sh:minCount 1 ;
+        sh:message "Each Module must connect to at least one Week using HAS_WEEK." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_RESOURCE ;
+        sh:class kg:Resource ;
+        sh:message "HAS_RESOURCE from Module must point to Resource." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_ASSESSMENT ;
+        sh:class kg:Assessment ;
+        sh:message "HAS_ASSESSMENT from Module must point to Assessment." ;
+    ] .
+
+
+# ============================================================
+# Week validation
+# ============================================================
+
+kg:WeekShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Week ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:pattern "^Week [0-9]+$" ;
+        sh:message "Each Week must be named using the format 'Week 1', 'Week 2', etc." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:weekNumber ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:maxInclusive 60 ;
+        sh:message "Week number must be a valid positive integer." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:COVERS ;
+        sh:class kg:Topic ;
+        sh:minCount 1 ;
+        sh:message "Each Week must cover at least one Topic using COVERS." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:NEXT ;
+        sh:class kg:Week ;
+        sh:message "NEXT must connect one Week to another Week." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_RESOURCE ;
+        sh:class kg:Resource ;
+        sh:message "HAS_RESOURCE from Week must point to Resource." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_ASSESSMENT ;
+        sh:class kg:Assessment ;
+        sh:message "HAS_ASSESSMENT from Week must point to Assessment." ;
+    ] .
+
+
+# ============================================================
+# Topic validation
+# ============================================================
+
+kg:TopicShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Topic ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:minLength 3 ;
+        sh:maxLength 80 ;
+        sh:message "Each Topic must have a clear academic topic name." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:in (
+                "A"
+                "B"
+                "C"
+                "D"
+                "E"
+                "S"
+                "T"
+                "X"
+                "Y"
+                "Task"
+                "Activity"
+                "Question"
+                "Answer"
+                "Definition"
+                "Example"
+                "Formula"
+                "Application"
+                "Applications"
+                "Property"
+                "Properties"
+                "Attribute"
+                "Attributes"
+                "Basics"
+                "Key Idea"
+                "Undetermined"
+                "Unknown"
+                "N/A"
+                "None"
+                "Null"
+                "Mathematics"
+                "Computer Science"
+                "Set"
+                "Sets"
+            )
+        ] ;
+        sh:message "Topic name is too generic, noisy, or not a real academic topic." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^ACTIVITY" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Activity titles should not be stored as Topic nodes." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^Question" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Question titles should not be stored as Topic nodes." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^What is" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Question-style text should not be stored as a Topic node." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^[A-Z]=\\{" ;
+        ] ;
+        sh:message "Raw set values should not be stored as Topic names." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_CONCEPT ;
+        sh:class kg:Concept ;
+        sh:minCount 1 ;
+        sh:message "Each Topic must connect to at least one Concept using HAS_CONCEPT." ;
+    ] .
+
+
+# ============================================================
+# Concept validation
+# ============================================================
+
+kg:ConceptShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Concept ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:minLength 3 ;
+        sh:maxLength 80 ;
+        sh:message "Each Concept must have a clear concept name." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:in (
+                "A"
+                "B"
+                "C"
+                "D"
+                "E"
+                "S"
+                "T"
+                "X"
+                "Y"
+                "x"
+                "y"
+                "q"
+                "r"
+                "n"
+                "a"
+                "b"
+                "c"
+                "d"
+                "set"
+                "sets"
+                "size"
+                "object"
+                "objects"
+                "list"
+                "elements"
+                "attribute"
+                "attributes"
+                "property"
+                "properties"
+                "definition"
+                "example"
+                "formula"
+                "application"
+                "activity"
+                "task"
+                "question"
+                "answer"
+                "basics"
+                "unknown"
+                "n/a"
+                "none"
+                "null"
+                "e.g."
+                "not provided"
+                "(not provided)"
+                "Order Matters!"
+                "Order Matters"
+                "Representation"
+                "Inclusivity"
+                "Interval(a,b)"
+                "(a,b)"
+                "Interval Type"
+                "Attribute Set"
+                "Property Or Condition"
+            )
+        ] ;
+        sh:message "Concept name is too generic, too noisy, or not a meaningful learning concept." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^ACTIVITY" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Activity labels should not be stored as Concept nodes." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^Question" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Question labels should not be stored as Concept nodes." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^Answer" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Answer labels should not be stored as Concept nodes." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^What is" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Question-style text should not be stored as a Concept node." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^A sequence is" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Sentence-style definitions should not be stored as Concept names." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^A set is" ;
+            sh:flags "i" ;
+        ] ;
+        sh:message "Sentence-style definitions should not be stored as Concept names." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^[A-Z]=\\{" ;
+        ] ;
+        sh:message "Raw set values should not be stored as Concept names." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:not [
+            sh:pattern "^[\\{\\}\\(\\)\\[\\],;:|∣∪∩⊆⊂×=+\\-*/0-9\\s]+$" ;
+        ] ;
+        sh:message "Formula-only or symbol-only text should not be stored as a Concept name." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:description ;
+        sh:datatype xsd:string ;
+        sh:maxLength 500 ;
+        sh:message "Concept description must be a string under 500 characters." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:formula ;
+        sh:datatype xsd:string ;
+        sh:maxLength 250 ;
+        sh:message "Concept formula must be stored as a short string property, not as a Formula node." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:example ;
+        sh:datatype xsd:string ;
+        sh:maxLength 300 ;
+        sh:message "Concept example must be stored as a short string property, not as an Example node." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:application ;
+        sh:datatype xsd:string ;
+        sh:maxLength 300 ;
+        sh:message "Concept application must be stored as a short string property, not as an Application node." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:confidence ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0.0 ;
+        sh:maxInclusive 1.0 ;
+        sh:message "Concept confidence must be between 0.0 and 1.0 if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:RELATED_TO ;
+        sh:class kg:Concept ;
+        sh:message "RELATED_TO must connect one Concept to another Concept." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:BUILDS_ON ;
+        sh:class kg:Concept ;
+        sh:message "BUILDS_ON must connect one Concept to another Concept." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:PREREQUISITE_OF ;
+        sh:class kg:Concept ;
+        sh:message "PREREQUISITE_OF must connect one Concept to another Concept." ;
+    ] .
+
+
+# ============================================================
+# Resource validation
+# ============================================================
+
+kg:ResourceShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Resource ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:minLength 3 ;
+        sh:maxLength 150 ;
+        sh:message "Each Resource must have a valid name." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:description ;
+        sh:datatype xsd:string ;
+        sh:maxLength 500 ;
+        sh:message "Resource description must be a string under 500 characters if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:sourceFile ;
+        sh:datatype xsd:string ;
+        sh:maxLength 250 ;
+        sh:message "Resource source file must be a string if provided." ;
+    ] .
+
+
+# ============================================================
+# Assessment validation
+# ============================================================
+
+kg:AssessmentShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Assessment ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:minLength 3 ;
+        sh:maxLength 150 ;
+        sh:message "Each Assessment must have a valid name." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:assessmentMonth ;
+        sh:datatype xsd:string ;
+        sh:maxLength 30 ;
+        sh:message "Assessment month must be a short string if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:isSummative ;
+        sh:datatype xsd:boolean ;
+        sh:message "isSummative must be a boolean if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:weightingPercentage ;
+        sh:datatype xsd:double ;
+        sh:minInclusive 0.0 ;
+        sh:maxInclusive 100.0 ;
+        sh:message "Assessment weighting percentage must be between 0 and 100 if provided." ;
+    ] .
+
+
+# ============================================================
+# Processed Document validation
+# ============================================================
+
+kg:ProcessedDocumentShape
+    a sh:NodeShape ;
+    sh:targetClass kg:ProcessedDocument ;
+
+    sh:property [
+        sh:path kg:name ;
+        sh:datatype xsd:string ;
+        sh:minCount 1 ;
+        sh:minLength 3 ;
+        sh:maxLength 250 ;
+        sh:message "Each ProcessedDocument must have a valid name." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:fileHash ;
+        sh:datatype xsd:string ;
+        sh:maxLength 128 ;
+        sh:message "fileHash must be a valid string if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:processedAt ;
+        sh:datatype xsd:dateTime ;
+        sh:message "processedAt must be a valid dateTime if provided." ;
+    ] .
+
+
+# ============================================================
+# Forbidden node-type validation
+# ============================================================
+
+kg:ForbiddenDefinitionShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Definition ;
+    sh:property [
+        sh:path kg:text ;
+        sh:maxCount 0 ;
+        sh:message "Definition nodes are not allowed. Store definition text as kg:description on Concept instead." ;
+    ] .
+
+kg:ForbiddenExampleShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Example ;
+    sh:property [
+        sh:path kg:text ;
+        sh:maxCount 0 ;
+        sh:message "Example nodes are not allowed. Store examples as kg:example on Concept instead." ;
+    ] .
+
+kg:ForbiddenFormulaShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Formula ;
+    sh:property [
+        sh:path kg:text ;
+        sh:maxCount 0 ;
+        sh:message "Formula nodes are not allowed. Store formulas as kg:formula on Concept instead." ;
+    ] .
+
+kg:ForbiddenApplicationShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Application ;
+    sh:property [
+        sh:path kg:name ;
+        sh:maxCount 0 ;
+        sh:message "Application nodes are not allowed. Store applications as kg:application on Concept instead." ;
+    ] .
+
+
+# ============================================================
+# Relationship direction validation
+# ============================================================
+
+kg:ModuleRelationshipShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Module ;
+
+    sh:property [
+        sh:path kg:HAS_WEEK ;
+        sh:class kg:Week ;
+        sh:message "HAS_WEEK must go from Module to Week." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_RESOURCE ;
+        sh:class kg:Resource ;
+        sh:message "HAS_RESOURCE from Module must point to Resource." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_ASSESSMENT ;
+        sh:class kg:Assessment ;
+        sh:message "HAS_ASSESSMENT from Module must point to Assessment." ;
+    ] .
+
+
+kg:WeekRelationshipShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Week ;
+
+    sh:property [
+        sh:path kg:COVERS ;
+        sh:class kg:Topic ;
+        sh:message "COVERS must go from Week to Topic." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:NEXT ;
+        sh:class kg:Week ;
+        sh:message "NEXT must go from Week to Week." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_RESOURCE ;
+        sh:class kg:Resource ;
+        sh:message "HAS_RESOURCE from Week must point to Resource." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:HAS_ASSESSMENT ;
+        sh:class kg:Assessment ;
+        sh:message "HAS_ASSESSMENT from Week must point to Assessment." ;
+    ] .
+
+
+kg:TopicRelationshipShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Topic ;
+
+    sh:property [
+        sh:path kg:HAS_CONCEPT ;
+        sh:class kg:Concept ;
+        sh:message "HAS_CONCEPT must go from Topic to Concept." ;
+    ] .
+
+
+kg:ConceptRelationshipShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Concept ;
+
+    sh:property [
+        sh:path kg:RELATED_TO ;
+        sh:class kg:Concept ;
+        sh:message "RELATED_TO must go from Concept to Concept." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:BUILDS_ON ;
+        sh:class kg:Concept ;
+        sh:message "BUILDS_ON must go from Concept to Concept." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:PREREQUISITE_OF ;
+        sh:class kg:Concept ;
+        sh:message "PREREQUISITE_OF must go from Concept to Concept." ;
+    ] .
+
+
+# ============================================================
+# Source metadata validation
+# ============================================================
+
+kg:SourceMetadataShape
+    a sh:NodeShape ;
+    sh:targetClass kg:Topic, kg:Concept, kg:Resource, kg:Assessment ;
+
+    sh:property [
+        sh:path kg:sourceFile ;
+        sh:datatype xsd:string ;
+        sh:maxLength 250 ;
+        sh:message "sourceFile must be a string if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:pageNumber ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 1 ;
+        sh:message "pageNumber must be a positive integer if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:chunkIndex ;
+        sh:datatype xsd:integer ;
+        sh:minInclusive 0 ;
+        sh:message "chunkIndex must be zero or a positive integer if provided." ;
+    ] ;
+
+    sh:property [
+        sh:path kg:sourceType ;
+        sh:datatype xsd:string ;
+        sh:maxLength 50 ;
+        sh:message "sourceType must be a short string if provided." ;
+    ] .
