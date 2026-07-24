@@ -1,0 +1,92 @@
+{
+  "student": {
+    "student_id": "STU-90482",
+    "name": "Alex Chen",
+    "module": {
+      "course_id": "CS101",
+      "course_name": "Mathematics for Computing",
+      "overall_mastery_level": "Intermediate",
+      "learning_style_preference": "Visual and Example-Based"
+    },
+    "current_understanding": {
+      "topics_mastered": [
+        "Set Theory Basics",
+        "Subsets and Proper Subsets",
+        "Venn Diagrams"
+      ],
+      "topics_developing": [
+        "Set Operations (Union & Intersection)",
+        "Binary Number System"
+      ],
+      "topics_needing_review": [
+        "Modular Arithmetic",
+        "Power Sets"
+      ]
+    },
+    "recent_assessment_scores": [
+      {
+        "assessment_id": "QUIZ-01",
+        "topic": "Set Theory Basics",
+        "score": 92,
+        "max_score": 100,
+        "date_completed": "2026-07-10"
+      },
+      {
+        "assessment_id": "QUIZ-02",
+        "topic": "Subsets and Venn Diagrams",
+        "score": 85,
+        "max_score": 100,
+        "date_completed": "2026-07-15"
+      },
+      {
+        "assessment_id": "MIDTERM-01",
+        "topic": "Set Operations & Binary Numbers",
+        "score": 74,
+        "max_score": 100,
+        "date_completed": "2026-07-20"
+      },
+      {
+        "assessment_id": "QUIZ-03",
+        "topic": "Modular Arithmetic",
+        "score": 58,
+        "max_score": 100,
+        "date_completed": "2026-07-22"
+      }
+    ],
+    "ai_covered_topics": [
+      {
+        "topic_id": "TOPIC-01",
+        "topic_name": "Introduction to Sets and Elements",
+        "date_covered": "2026-07-08",
+        "completion_status": "Completed",
+        "summary_provided": true
+      },
+      {
+        "topic_id": "TOPIC-02",
+        "topic_name": "Subsets vs Proper Subsets",
+        "date_covered": "2026-07-12",
+        "completion_status": "Completed",
+        "summary_provided": true
+      },
+      {
+        "topic_id": "TOPIC-03",
+        "topic_name": "Set Operations (Union, Intersection, Difference)",
+        "date_covered": "2026-07-18",
+        "completion_status": "Completed",
+        "summary_provided": true
+      },
+      {
+        "topic_id": "TOPIC-04",
+        "topic_name": "Modular Arithmetic Basics",
+        "date_covered": "2026-07-21",
+        "completion_status": "In Progress",
+        "summary_provided": false
+      }
+    ],
+    "next_recommended_actions": [
+      "Review Modular Arithmetic formula and step-by-step examples.",
+      "Complete a practice drill on Power Sets.",
+      "Proceed to Relations and Functions once modular score reaches 80+."
+    ]
+  }
+}

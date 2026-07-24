@@ -1,6 +1,15 @@
-Where can I find information regarding tuples? Are there lecture slides that explain them?
-Please explain the Fibonacci Sequence.
-Recommend practice questions for this module.
+What does this module cover?
+Who is the module leader, and how can I contact them?
+What topics are likely to appear in the module assessments?
+Explain number theory.
+Please summarise the main topics of the module and give a short explanation of what they mean.
+Explain set theory.
+I need practice questions for my upcoming assessment.
+Quiz me on intervals.
+Help me prepare for my in-class test on Thursday by asking me practice questions.
+I need practice questions for my upcoming assessment.
+What topics do I need to revise in this module?
+Help me prepare for my in-class test on Thursday by asking me practice questions.
 How does number theory relate to computing?
-Why is maths for computing essential for programming?
-
+Where can I find information regarding intervals? Which week should I refer to?
+How does set theory relate to computing?
