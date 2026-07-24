@@ -1,0 +1,2421 @@
+{
+  "chunks": [
+    {
+      "chunk_id": "399eda92-5af5-4906-958d-30d71cd76766",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [],
+      "extracted_quotes": [],
+      "full_text": "Let's get closer to mathematics…Mathematics as the Fundamental Concept of Computer Science",
+      "concept_details": []
+    },
+    {
+      "chunk_id": "2f2cff42-f62e-443b-9b13-ca162ef0e06a",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Roles Of Mathematics In Computer Science"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Mathematics associated with computer science areas Source: Baldwin, D., Walker, H.M. and Henderson, P.B., 2013. The roles of mathematics in computer science.Acm Inroads,4(4), pp.74-80.",
+      "concept_details": [
+        {
+          "name": "Roles Of Mathematics In Computer Science",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "360af666-34e0-4d84-b6cd-d034e1b0bbd6",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Logical Reasoning",
+        "Algorithms",
+        "Data Structures",
+        "Machine Learning/Ai",
+        "Computer Graphics",
+        "Cryptography & Security",
+        "Efficiency And Optimisation"
+      ],
+      "extracted_quotes": [
+        "Maths sharpens the ability to think logically",
+        "Many algorithms are based on mathematical principles",
+        "Concepts like sets, graphs, and trees",
+        "Requires understanding of statistics",
+        "Geometry and trigonometry",
+        "Number theory and modular arithmetic",
+        "Maths helps analyse"
+      ],
+      "full_text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+      "concept_details": [
+        {
+          "name": "Logical Reasoning",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": "essential for writing efficient algorithms and code"
+        },
+        {
+          "name": "Algorithms",
+          "description": "Many algorithms are based on mathematical principles and formulas",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Data Structures",
+          "description": "Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Machine Learning/Ai",
+          "description": "Requires understanding of statistics, probability, linear algebra, and calculus",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Computer Graphics",
+          "description": "Geometry and trigonometry are fundamental for rendering images and animations",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Cryptography & Security",
+          "description": "Number theory and modular arithmetic form the basis of cryptographic algorithms",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Efficiency And Optimisation",
+          "description": "Maths helps analyse and improve code efficiency through big O notation and other methods",
+          "formula": "",
+          "example": "",
+          "application": "through big O notation and other methods"
+        }
+      ]
+    },
+    {
+      "chunk_id": "9e076e31-0cec-4b80-a880-2b78a9c61dd7",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Logic",
+        "Set Theory",
+        "Combinatorics",
+        "Graph Theory",
+        "Number Theory",
+        "Algorithms"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Discrete Mathematics What is Discrete Mathematics?•A branch of mathematics that deals with distinct, separate, or non-continuous structures.Main Topics in Discrete Math:•Logic: Propositions, truth tables, predicates, and quantifiers.•Set Theory: Basics of sets, operations, and relations.•Combinatorics: Counting, permutations, and combinations.•Graph Theory: Vertices, edges, trees, and traversal.•Number Theory: Prime numbers, divisibility, and modular arithmetic.•Algorithms: Analysis, sorting, and searching.Discrete Mathematics provides the essential theoretical foundation for many areas of computer science and informs our understanding of the digital world.",
+      "concept_details": [
+        {
+          "name": "Logic",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Set Theory",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Combinatorics",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Graph Theory",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Number Theory",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Algorithms",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "4906e4b9-acab-42b5-8964-265097b8ea29",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Decimal Number System"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Number Formats: Decimal Number System Thedecimal number system(base-10) is the standard system for representing numbers, using the digits 0 through 9. Each position in a decimal number has aplace valuebased on powers of 10, making it intuitive for everyday use.Base-10: The decimal system uses10 digits(0–9).Place Value: Each digit's position determines its value, increasing by powers of 10 as you move left.Example:The number3471represents:3×103=30004×102=4007×101=701×100=1Total:3000+400+70+1=3471",
+      "concept_details": [
+        {
+          "name": "Decimal Number System",
+          "description": "",
+          "formula": "base-10",
+          "example": "Each position in a decimal number has a place value based on powers of 10, making it intuitive for everyday use.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "2a2a496c-60a0-44a5-885a-efdca43273b3",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Binary Number System"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Number Formats: Binary Number System Thebinary number systemis abase-2 numeral systemthat uses only two digits: 0 and 1. Regardless of size, every number can be represented in binary form, making it the fundamental numbering system for computers and digital systems. Examples:•14 in binary:11102•245 in binary:111101012•34567 in binary:10000111000011112 All data in a computer is stored in binary, whether it's text, images, or numbers.Why Binary?Computers use binary because they operate using electrical signals with two states: ON (1) and OFF (0). This makes binary the most efficient way to represent and process data electronically.Memory consists of individual bits (binary digits), each of which is either a 0 or 1. These bits are grouped into bytes (8 bits), and sequences of bytes are used to store more complex data, such as numbers, characters, or larger structures like arrays and files.",
+      "concept_details": [
+        {
+          "name": "Binary Number System",
+          "description": "",
+          "formula": "",
+          "example": "•14 in binary:11102 •245 in binary:111101012 •34567 in binary:10000111000011112",
+          "application": "All data in a computer is stored in binary, whether it's text, images, or numbers."
+        }
+      ]
+    },
+    {
+      "chunk_id": "8596f826-75d2-436f-b010-2322ca02299d",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Decimal To Binary Conversion",
+        "Binary To Decimal Conversion"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Conversion Between Number Systems Decimal to Binary Conversion: Repeatedly divide the decimal number by 2, keeping track of the remainders. The binary number is the sequence of remainders read from bottom to top.Example: Convert19 to binary.Divide by 2and keep track of the remainders:1.19 ÷ 2 = 9 remainder12.9 ÷ 2 = 4 remainder13.4 ÷ 2 = 2 remainder04.2 ÷ 2 = 1 remainder05.1 ÷ 2 = 0 remainder1Result: Reading the remainders from bottom to top. 19 in decimalis10011 in binary. Binary to Decimal Conversion: Multiply each binary digit by2n, wherenis the position of the digit, starting from 0 from the right. Example: Convert10011back to decimal.Start from the rightmost bit and multiply each bit by powers of 2, based on its position:1.1 × 24 = 16 2.0 × 23 = 0 3.0 × 22 = 0 4.1 × 21 = 2 5.1 × 20 = 1Result: Add them together.16 + 0 + 0 + 2 + 1 =19 Binary Storage in Memory:",
+      "concept_details": [
+        {
+          "name": "Decimal To Binary Conversion",
+          "description": "",
+          "formula": "",
+          "example": "Convert19 to binary.Divide by 2and keep track of the remainders:1.19 ÷ 2 = 9 remainder12.9 ÷ 2 = 4 remainder13.4 ÷ 2 = 2 remainder04.2 ÷ 2 = 1 remainder05.1 ÷ 2 = 0 remainder1Result: Reading the remainders from bottom to top. 19 in decimalis10011 in binary.",
+          "application": ""
+        },
+        {
+          "name": "Binary To Decimal Conversion",
+          "description": "",
+          "formula": "",
+          "example": "Convert10011back to decimal.Start from the rightmost bit and multiply each bit by powers of 2, based on its position:1.1 × 24 = 16 2.0 × 23 = 0 3.0 × 22 = 0 4.1 × 21 = 2 5.1 × 20 = 1Result: Add them together.16 + 0 + 0 + 2 + 1 =19",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "8d3546d7-cc46-4ac7-b61e-60da2342bd9b",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Real Numbers",
+        "Rational Numbers",
+        "Irrational Numbers",
+        "Integers",
+        "Whole Numbers",
+        "Natural Numbers"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Number Types Real Numbers (R) Rational Numbers (Q) (can be expressed as the quotient or fraction of two integers): ½, ¾, -1,457 Irrational Numbers (I) (cannot be expressed as the quotient or fraction of two integers): √3, etc. Integers (Z): …,-3,-2,-1,0,1,2,3,…Whole Numbers (W): 0,1,2,3,...Natural Numbers (N):1,2,3,4,5,…",
+      "concept_details": [
+        {
+          "name": "Real Numbers",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Rational Numbers",
+          "description": "can be expressed as the quotient or fraction of two integers",
+          "formula": "",
+          "example": "½, ¾, -1,457",
+          "application": ""
+        },
+        {
+          "name": "Irrational Numbers",
+          "description": "cannot be expressed as the quotient or fraction of two integers",
+          "formula": "",
+          "example": "√3, etc.",
+          "application": ""
+        },
+        {
+          "name": "Integers",
+          "description": "...,-3,-2,-1,0,1,2,3,…",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Whole Numbers",
+          "description": "0,1,2,3,...",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Natural Numbers",
+          "description": "1,2,3,4,5,…",
+          "formula": "",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "05acd900-69f8-4721-903b-04627617069f",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Natural Numbers",
+        "Integers",
+        "Rational Numbers",
+        "Real Numbers",
+        "Complex Numbers"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Number Sets in Mathematics and Their Programming Equivalents Mathematical Set Example Values Typical Programming Data Type Notes ℕ (Natural numbers)0, 1, 2, 3…int(integer)Computers don’t distinguish between “positive only” and “all integers.”ℤ (Integers)–2, –1, 0, 1, 2int(integer)Usually stored in fixed-size formats (e.g. 32-bit, 64-bit). ℚ (Rational numbers)½, –7/3fractions.Fraction(Python), custom class, or twoints (numerator/denominator)Not built-in in most languages; usually represented as a pair of integers. ℝ (Real numbers)3.14, –0.01, √2floatordouble(floating-point)Computers can only approximate real numbers due to finite memory.ℂ (Complex numbers)2 + 3icomplex(Python),Complexclass (Java, C#)Not always built-in, but available in some languages.",
+      "concept_details": [
+        {
+          "name": "Natural Numbers",
+          "description": "",
+          "formula": "",
+          "example": "0, 1, 2, 3…",
+          "application": "int(integer)"
+        },
+        {
+          "name": "Integers",
+          "description": "",
+          "formula": "",
+          "example": "-2, -1, 0, 1, 2",
+          "application": "int(integer), fixed-size formats (e.g. 32-bit, 64-bit)"
+        },
+        {
+          "name": "Rational Numbers",
+          "description": "",
+          "formula": "",
+          "example": "½, -7/3",
+          "application": "fractions, Fraction(Python), custom class, or two points (numerator/denominator)"
+        },
+        {
+          "name": "Real Numbers",
+          "description": "",
+          "formula": "",
+          "example": "3.14, -0.01, √2",
+          "application": "float, double (floating-point), computers can only approximate real numbers due to finite memory"
+        },
+        {
+          "name": "Complex Numbers",
+          "description": "",
+          "formula": "",
+          "example": "2 + 3i",
+          "application": "complex, Complex class (Java, C#), not always built-in but available in some languages"
+        }
+      ]
+    },
+    {
+      "chunk_id": "4abc2bc0-ef18-496c-8de8-d39add165ea5",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Prime Numbers",
+        "Composite Numbers"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Introduction to the Number Theory NUMBER THEORY is a branch of pure mathematics devoted to the study of integers and, more generally, to objects built out of them.Integers (ℤ)are the set of whole numbers and their negatives, including zero. In other words, they extend whole numbers by adding the negative counterparts. The symbolℤcomes from the German word“Zahlen”, meaning “numbers.”Formally: Z={…,−3,−2,−1,0,1,2,3,…} Prime and Composite Numbers•Prime Numbers: Natural numbers greater than 1 that have no positive divisors other than 1 and itself.•Composite Numbers: Natural numbers greater than 1 that are not prime.Example: 5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4.",
+      "concept_details": [
+        {
+          "name": "Prime Numbers",
+          "description": "",
+          "formula": "",
+          "example": "5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4.",
+          "application": ""
+        },
+        {
+          "name": "Composite Numbers",
+          "description": "",
+          "formula": "",
+          "example": "5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "b4ecd9d4-6811-41c0-af58-4337c9847d5d",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Integers"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Why are Integers popular in coding?§Efficiency: Integers are stored and processed more quickly by the CPU compared to floating-point numbers.§Exact Values: Unlike floating-point numbers, integers represent exact values without rounding errors.§Memory Usage: Integers require less memory compared to more complex data types like floats or doubles.§Looping and Indexing: Commonly used to control loops and index arrays due to their precision and simplicity.§Bitwise Operations: Integers are ideal for bit-level operations (AND, OR, XOR) and shifting, commonly used in low-level programming.§Compatibility: Widely supported by all programming languages and hardware architectures.",
+      "concept_details": [
+        {
+          "name": "Integers",
+          "description": "stored and processed more quickly by the CPU compared to floating-point numbers.; represent exact values without rounding errors.; require less memory compared to more complex data types like floats or doubles.; used to control loops and index arrays due to their precision and simplicity.",
+          "formula": "",
+          "example": "",
+          "application": "stored and processed more quickly by the CPU compared to floating-point numbers.; represent exact values without rounding errors.; require less memory compared to more complex data types like floats or doubles.; used to control loops and index arrays due to their precision and simplicity."
+        }
+      ]
+    },
+    {
+      "chunk_id": "febf79b8-2061-40b6-acf7-a73c6f0d7c2c",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Factorisation"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Fundamental Theorem of Arithmetic Statement: Every integer greater than 1 is either a prime number itself or can be factorised uniquely into prime numbers up to the order of the factors.Implication: Prime numbers are the “building blocks” of all natural numbers.The factorisation is decomposing a number into a product of other numbers. In the context of the Fundamental Theorem of Arithmetic, factorisation refers specifically to representing an integer as a product of prime numbers.Example of Factorisation:Consider the number 84. We can factorise it as follows: 84=2×42=2×(2×21)=2×2×(3×7)=22×3×7",
+      "concept_details": [
+        {
+          "name": "Factorisation",
+          "description": "",
+          "formula": "n = p1 × p2 × ... × pn",
+          "example": "84=2×42=2×(2×21)=2×2×(3×7)=22×3×7",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "e863d9bc-a635-407b-977d-7f20bef401d3",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Division Theorem"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Division Theorem For two integersaandbwhereb ≠ 0, there always exists unique integersqandrsuch thata = qb + rand0 ≤ r < |b|. Example:a= 17,b=3, we can findq= 5 andr= 2 so that 17 = 3*5+2ais called thedividendbis called thedivisorqis called thequotientris called theremainder Ifr = 0, then we saybdividesaoraisdivisiblebyb. \"# = Q rem R",
+      "concept_details": [
+        {
+          "name": "Division Theorem",
+          "description": "",
+          "formula": "",
+          "example": "a=17,b=3, we can findq=5 andr=2 so that 17 = 3*5+2",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "d90fa784-e474-4093-90fb-8ff8614d6a29",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Congruent Numbers"
+      ],
+      "extracted_quotes": [
+        "Numbers are treated as equivalent if they leave the same remainder when divided by b."
+      ],
+      "full_text": "Modular Arithmetic Basics Modular arithmetic is a system of arithmetic for integers, where numbers \"wrap around\" after reaching a certain value, known as the modulus.Inmodular arithmetic, we focus on theremainder rwhen dividingabyb.Modular Arithmetic Notation: A mod B = R (vs. Division Theorem:!\" = Q rem R) Example:(1) 14mod5=4(since14=2×5+4 or!\"# = 2 rem 4)We also say 14≡4(mod5) That means14 is congruent to 4 modulo 5. In fact, any number that leaves remainder4 when divided by 5is congruent to 14 modulo 5. So, the full set of numbers congruent to 14 is: {…,−6,−1,4,9,14,19,24,…} In general: 14≡4≡9≡19≡24≡…(mod5)(2) 23mod7=2(since23=3×7+2 or#$% = 3 rem 2)The full set: {…,−12,−5,2,9,16,23,30,37,…}, 23≡2≡9≡16≡30≡37≡…(mod7)Key Idea: Numbers are treated asequivalent if they leave the same remainderwhen divided byb.",
+      "concept_details": [
+        {
+          "name": "Congruent Numbers",
+          "description": "",
+          "formula": "A ≡ B (mod n)",
+          "example": "14 ≡ 4 (mod 5), 23 ≡ 2 (mod 7)",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "9d6b3447-83ce-4163-89ba-275b18f4dcdc",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Clock Arithmetic"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Modular Arithmetic Examples 12hrs Clock 8 hrs +10 hrs =What time is it?8 hrs +22 hrs=???22 hrs= 10hrs+12hrs U.K. schools getting rid of analogue clocks because teens “cannot tell time.” Source: CBS News, May 8, 2018",
+      "concept_details": [
+        {
+          "name": "Clock Arithmetic",
+          "description": "",
+          "formula": "",
+          "example": "8 hrs +10 hrs =What time is it?8 hrs +22 hrs=???22 hrs= 10hrs+12hrs",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "03fd68e2-16e0-4c34-b5b1-fad0f16e585b",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Modulo Operation"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Modular Arithmetic Examples 7mod2=1 -5 mod 3 =1 7 mod 2 -5 mod 3 8 mod 4 8 mod 4 = 0",
+      "concept_details": [
+        {
+          "name": "Modulo Operation",
+          "description": "",
+          "formula": "",
+          "example": "7 mod 2=1, -5 mod 3 =1, 8 mod 4 = 0",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "3a88f84c-d7d8-41da-8a26-f05cb0388cbd",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Modular Arithmetic"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Applications of Modular Mathematics•Cryptography: Used in encryption algorithms (e.g., RSA, Diffie-Hellman) to secure communications.•Hash Functions: Modular arithmetic is used in hash algorithms to distribute data evenly in hash tables.•Error Detection: Algorithms like CRC (Cyclic Redundancy Check) use modular arithmetic to detect errors in data transmission.•Random Number Generation: Modular arithmetic helps generate pseudo-random numbers in algorithms.•Computer Graphics: Used in algorithms for color wrapping and texture mapping.•Scheduling Algorithms: Time-based tasks use modular arithmetic to loop within fixed periods (e.g., clocks, calendars). Source: Imitation Game film screenshot",
+      "concept_details": [
+        {
+          "name": "Modular Arithmetic",
+          "description": "Used in encryption algorithms (e.g., RSA, Diffie-Hellman) to secure communications.; Modular arithmetic is used in hash algorithms to distribute data evenly in hash tables.; Algorithms like CRC (Cyclic Redundancy Check) use modular arithmetic to detect errors in data transmission.",
+          "formula": "",
+          "example": "",
+          "application": "Used in encryption algorithms (e.g., RSA, Diffie-Hellman) to secure communications.; Modular arithmetic is used in hash algorithms to distribute data evenly in hash tables.; Algorithms like CRC (Cyclic Redundancy Check) use modular arithmetic to detect errors in data transmission."
+        }
+      ]
+    },
+    {
+      "chunk_id": "34faa55e-60c5-4c45-827b-96602b3384d1",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Caesar Cipher"
+      ],
+      "extracted_quotes": [],
+      "full_text": "HOMEWORK ACTIVITY: Codebreakers Task: Decrypt a Simple Caesar Cipher Message Manually The Caesar Cipher shifts each letter in the alphabet by a fixed number (key). The encryption equation is: C≡P+k mod 26, where C is the ciphertext letter, P is the plaintext letter, k is the shift value (key).26 represents the number of letters in the English alphabet. Given: You are given an encrypted message: \"UPQY\"—the shift value (key) k=2.Decrypt the given message manually on paper. Hints: Write down the corresponding numeric values for each letter in the encrypted message (U=20, P=15, Y=24, Q=16). Use the decryption equation: P≡C−k mod26",
+      "concept_details": [
+        {
+          "name": "Caesar Cipher",
+          "description": "",
+          "formula": "C≡P+k mod 26",
+          "example": "U=20, P=15, Y=24, Q=16",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "5a75d3b7-ba6e-4d8d-99cc-96c385e3b948",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Binary Number System",
+        "Modular Arithmetic"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Binary Number System and Modular Arithmetic Thebinary number system(base-2) andmodular arithmeticare closely related. Modular arithmetic operates on numbers with a fixed range, much like how binary numbers wrap around when adding or subtracting (mod2).",
+      "concept_details": [
+        {
+          "name": "Binary Number System",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Modular Arithmetic",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "e5e61869-cb2b-47e7-bdec-86885a4b16ca",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Sequence"
+      ],
+      "extracted_quotes": [
+        "Sequences are an ordered list of elements"
+      ],
+      "full_text": "Sequences A sequence is an ordered list of elements (numbers, objects, etc.), arranged according to a certain rule or pattern. Each element in a sequence is called a term, and the position of a term in a sequence is called its index.Example(2,4,6,8,10,12) – sequence of even numbers(1,3,5,7,9,11) – sequence of odd numbers Sequences can be finite or infinite.",
+      "concept_details": [
+        {
+          "name": "Sequence",
+          "description": "An ordered list of elements, arranged according to a certain rule or pattern.",
+          "formula": "",
+          "example": "(2,4,6,8,10,12) – sequence of even numbers (1,3,5,7,9,11) – sequence of odd numbers",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "dc9c21b4-74fb-4f96-b2e9-3947c91ecafa",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Arithmetic Sequence"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Arithmetic Sequence An arithmetic sequence (progression) is a sequence of numbers in which the difference between consecutive terms is constant. This difference is called the \"common difference,\" denoted by d. The general form of an arithmetic sequence is a, a+d, a+2d, a+3d, …, here, a is the first term of the sequence.The nth term of an arithmetic sequence can be calculated using the formula: an=a+(n−1)d Example:In the sequence 2, 5, 8, 11, …, the common difference d is 3.",
+      "concept_details": [
+        {
+          "name": "Arithmetic Sequence",
+          "description": "A sequence of numbers in which the difference between consecutive terms is constant.",
+          "formula": "an=a+(n−1)d",
+          "example": "2, 5, 8, 11, …, where d is 3.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "c4273d36-56b3-43a1-b853-0fbf14c00a0f",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Geometric Sequence"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Geometric Sequence•A geometric sequence (progression) is a sequence of numbers where each term after the first is found by multiplying the previous term by a fixed, non-zero number called the \"common ratio,\" denoted by r. The general form of a geometric sequence is: a, ar, ar2, ar3,…, here, a is the first term of the sequence.The nth term of a geometric sequence can be calculated using the formula: an=a⋅r(n−1) Example:In the sequence 3, 6, 12, 24, … the common ratio r is 2.",
+      "concept_details": [
+        {
+          "name": "Geometric Sequence",
+          "description": "A sequence of numbers where each term after the first is found by multiplying the previous term by a fixed, non-zero number called the 'common ratio,' denoted by r.",
+          "formula": "an=a⋅r(n−1)",
+          "example": "In the sequence 3, 6, 12, 24, … the common ratio r is 2.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "1a0fcdb0-6777-4253-8694-a804b1a90cc3",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+      "module": "Mathematics for Computing",
+      "week": "1",
+      "associated_concepts": [
+        "Fibonacci Sequence",
+        "Golden (devine) Ratio"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Fibonacci Sequence. Divine Ratio The Fibonacci sequence is a series of numbers in which each is the sum of the two preceding ones, usually starting with 0 and 1. In mathematical terms, the sequence F(n) of Fibonacci numbers is defined by the recurrence relation:F(n)=F(n−1)+F(n−2), with initial conditions: F(0)=0, F(1)=10,1,1,2,3,5,8,13,21,34…Golden (Devine) Ratio: The ratio of consecutive Fibonacci numbers converges to the Golden Ratio. 𝜑 ≈1.618033988749895. This ratio appears in various aspects of art, architecture, and nature.lim!→#(𝐹!$%𝐹!)=𝜑",
+      "concept_details": [
+        {
+          "name": "Fibonacci Sequence",
+          "description": "A series of numbers in which each is the sum of the two preceding ones, usually starting with 0 and 1.",
+          "formula": "F(n)=F(n−1)+F(n−2), with initial conditions: F(0)=0, F(1)=10,1,1,2,3,5,8,13,21,34…",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Golden (devine) Ratio",
+          "description": "",
+          "formula": "𝜑 ≈1.618033988749895.",
+          "example": "",
+          "application": "This ratio appears in various aspects of art, architecture, and nature."
+        }
+      ]
+    },
+    {
+      "chunk_id": "241049c6-3555-40fa-9968-ebf815fdada2",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Set"
+      ],
+      "extracted_quotes": [],
+      "full_text": "What is a Set?Sets are fundamental objects in mathematics, defined as collections of distinct elements. The elements that make up a set can be anything: numbers, letters, other sets, and so on.Sets are typically denoted using curly braces, with elements separated by commas. Examples: {a,b,c} {☼, 5, ♣} {1, 2, 3, 5, 7}",
+      "concept_details": [
+        {
+          "name": "Set",
+          "description": "collections of distinct elements",
+          "formula": "",
+          "example": "{a,b,c} {☼, 5, ♣} {1, 2, 3, 5, 7}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "bfeeca4f-876a-4f2f-a58a-b793db031925",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Sequence",
+        "Property Sets",
+        "Membership"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Sequences vs Sets Property Sets Sequences Definition A collection of distinct objects.An ordered list of elements, possibly with repetition.Ordering Order of elements is not significant.Order of elements is significant.Repetition No repetition of elements is allowed.Repetition of elements is allowed.Notation Typically denoted using curly braces {}. Represented using parentheses (), angle brackets <>, or listed.Membership An element either belongs or does not belong.An element can occur multiple times at different positions.Indexing Elements are not indexed.Elements are indexed; there is a first element, a second element, etc.Cardinality/Length Cardinality is the number of distinct elements.Length is the total number of elements, including repetitions.",
+      "concept_details": [
+        {
+          "name": "Sequence",
+          "description": "An ordered list of elements, possibly with repetition.",
+          "formula": "",
+          "example": "A collection of distinct objects.",
+          "application": ""
+        },
+        {
+          "name": "Property Sets",
+          "description": "A collection of distinct objects.",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Membership",
+          "description": "An element either belongs or does not belong.",
+          "formula": "",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "30068fac-5dc9-48c8-8e16-089356c28bd8",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Natural Numbers",
+        "Integers",
+        "Rational Numbers",
+        "Real Numbers"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Some well-known and named sets“N” is the natural numbers{0, 1, 2, 3, 4, 5, …}“Z” is the set of integers {…-2,-1,0,1,2,…}“Q” is the set of rational numbers“R” is the set of real numbers Real Numbers (R) Rational Numbers (Q) Irrational Numbers (I) Integers (Z) Whole Numbers (W) Natural Numbers (N)",
+      "concept_details": [
+        {
+          "name": "Natural Numbers",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Integers",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Rational Numbers",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Real Numbers",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "cf048629-4c6c-4cf7-a4a1-f8c88bcfc746",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Empty Set",
+        "Cardinality"
+      ],
+      "extracted_quotes": [
+        "NB: If the empty sets are included on purpose as the elements of the sets, they are counted as separate elements and are included in set cardinality."
+      ],
+      "full_text": "Empty Set. Cardinality There are some special sets, such as the empty set ∅ or {}, which has no elements, and universal sets (U), which contain all elements under consideration.The cardinality of a set is the number of elements in the set. It is denoted as |A| for a set A.NB: If the empty sets are included on purpose as the elements of the sets, they are counted as separate elements and are included in set cardinality.",
+      "concept_details": [
+        {
+          "name": "Empty Set",
+          "description": "A set with no elements.",
+          "formula": "∅ or {}",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Cardinality",
+          "description": "The number of elements in a set.",
+          "formula": "|A| for a set A",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "f8da859e-072b-4337-8fa4-634c172ff09e",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [],
+      "extracted_quotes": [],
+      "full_text": "!\"       \"$$! = = = != = ! \" #ABCD E )C**CB+,CC-./C0 ACTIVITY 1: Solve the following problems1.What is |A|, |D|? |A|=3, |D|=32.What is |B|+|C| 63.What is |D|+|E|-|A|? 0",
+      "concept_details": []
+    },
+    {
+      "chunk_id": "7e49c6e7-409b-49d5-b048-9dc7c712db75",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [],
+      "extracted_quotes": [],
+      "full_text": "ACTIVITY 1 DETAILED ANSWER§What is|A|,|D|?1.Set A={α,β,γ}. There are 3 elements, so|A|=3.2.Set D={{},{},10,11}. The empty set{}is counted as an element itself, so there are 3 unique elements:{},10,and11. Thus,|D|=3.The answer is:|A|=3,|D|=3. §What is|B|+|C|?1.Set B={−5,0,5,10}. There are 4 elements, so|B|=4.2.Set C={{a,{b}},{c,d}}. There are 2 elements, which are{a,{b}}and{c,d}, so|C|=2.Therefore,|B|+|C|=4+2=6. §What is|D|+|E|−|A|?1.|D|=3, as determined earlier.2.Set E={}is the empty set, so|E|=0.3.|A|=3, as determined earlier.Therefore,|D|+|E|−|A|=3+0−3=0.",
+      "concept_details": []
+    },
+    {
+      "chunk_id": "9f1f9cc2-2df6-4c8b-bd77-065807e55f81",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Equal Sets"
+      ],
+      "extracted_quotes": [
+        "Equal sets A set A is equivalent to a set B (abbreviated as A = B) if the following conditions hold"
+      ],
+      "full_text": "Equal sets A set A is equivalent to a set B (abbreviated as A = B) if the following conditions hold1) Every element of A is an element of B 2) Every element of B is an element of AExamples: {1,2,3} = {1,2,3} as both conditions above hold{ ♣ ,☼, 5} = {☼, 5, ♣}",
+      "concept_details": [
+        {
+          "name": "Equal Sets",
+          "description": "A set A is equivalent to a set B if the following conditions hold: every element of A is an element of B, and every element of B is an element of A.",
+          "formula": "",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "92005751-1b63-4b77-938a-6a3c10fdc7e0",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Subset"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Subsets A set A is considered a (weak) subset of set B if every element of set A is also an element of set B. The notation used to represent this relationship is A⊆B, which can be read as \"A is a subset of B”.This is analogous to the relation “less or equal.”The empty set ∅ is a subset of every set.Examples:•If A={1,2} and B={1,2,3,4}, then A⊆B, because every element of set A (which are 1 and 2) is also an element of set B. •If C={1,2,3,4}, then C⊆B, also C = B.",
+      "concept_details": [
+        {
+          "name": "Subset",
+          "description": "A set A is considered a subset of set B if every element of set A is also an element of set B.",
+          "formula": "A ⊆ B",
+          "example": "A={1,2}, B={1,2,3,4}, so A⊆B •If C={1,2,3,4}, then C⊆B, also C = B.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "18abfbf7-27f9-4df1-99ad-e40e281750eb",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Subset",
+        "Proper Subset"
+      ],
+      "extracted_quotes": [
+        "A set A is considered a subset of set B",
+        "If C={a,b,c,d,e}, it is NOT a proper subset of B."
+      ],
+      "full_text": "Proper Subset If A is a subset of B, and A is not equal to B (meaning some element in B is not in A), then A is called a proper subset of B. The notation used for a proper subset is A⊂B.This is analogous to the relation “less”.Examples:•If A={a,b} and B={a,b,c,d,e}, then A⊂B because A is a subset of B, and there exist the elements in B (which are c, d, e) that are not in A. If C={a,b,c,d,e}, it is NOT a proper subset of B.•Remember, by this definition, every set is considered a subset of itself (A⊆A) since all elements of A are indeed in A. However, a set is not a proper subset of itself.",
+      "concept_details": [
+        {
+          "name": "Subset",
+          "description": "A set A is a subset of set B if every element of A is also an element of B.",
+          "formula": "A ⊆ B",
+          "example": "A={1,2}, B={1,2,3}, so A⊆B",
+          "application": ""
+        },
+        {
+          "name": "Proper Subset",
+          "description": "If A is a subset of B, and A is not equal to B (meaning some element in B is not in A), then A is called a proper subset of B.",
+          "formula": "A⊂B",
+          "example": "•If A={a,b} and B={a,b,c,d,e}, then A⊂B because A is a subset of B, and there exist the elements in B (which are c, d, e) that are not in A.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "1adea6f9-f9ce-4d5f-a1ae-fcac88b3c7bc",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Set Builder Notation"
+      ],
+      "extracted_quotes": [
+        "Set builder notation is a shorthand way to describe a set by indicating the properties that its members must satisfy."
+      ],
+      "full_text": "Set Builder Notation Set builder notation is a shorthand way to describe a set by indicating the properties that its members must satisfy. The general format for set builder notation: {variable | propertyorcondition; propertyorcondition 2, …}The variable is a placeholder that represents the elements of the set.The property or condition specifies the criteria elements must satisfy to be included in the set.The vertical bar (or colon) can be read as \"such that\".",
+      "concept_details": [
+        {
+          "name": "Set Builder Notation",
+          "description": "a shorthand way to describe a set by indicating the properties that its members must satisfy.",
+          "formula": "",
+          "example": "{variable | propertyorcondition; propertyorcondition 2, …}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "5b7dd32b-1dc1-4d50-8130-88b8c2816c10",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Subset",
+        "Set Builder Notation"
+      ],
+      "extracted_quotes": [
+        "A set A is considered a subset of set B"
+      ],
+      "full_text": "Set Builder Notation Examples Example 1: A subset should contain numbers from the set A={2,4,6,8,10} that are divisible by 4Set Builder Notation:{x | x∈A;x mod4=0}; Result: {4,8}Example 2: A subset should contain objects from the set {a,b,c,d,e} that come before 'd' alphabetically:Description: The set of alphabets from the given subset that come before the letter 'd' alphabetically.Set Builder Notation: {x | x∈{a,b,c,d,e}andx<d}; Result: {a,b,c}Example 3. A subset should contain numbers from the set {1,2,3,4,5} that are greater than 3:Description: The set of numbers greater than 3 from the given set.Set Builder Notation: {x | x∈{1,2,3,4,5}; x>3}; Result: {4,5}",
+      "concept_details": [
+        {
+          "name": "Subset",
+          "description": "A set A is a subset of set B if every element of A is also an element of B.",
+          "formula": "",
+          "example": "A={1,2}, B={1,2,3}, so A⊆B",
+          "application": ""
+        },
+        {
+          "name": "Set Builder Notation",
+          "description": "The notation used to define subsets.",
+          "formula": "{x | x∈A;x mod4=0}; {x | x∈{a,b,c,d,e}andx<d}; {x | x∈{1,2,3,4,5}; x>3}",
+          "example": "Example 1: A subset should contain numbers from the set A={2,4,6,8,10} that are divisible by 4; Example 2: A subset should contain objects from the set {a,b,c,d,e} that come before 'd' alphabetically; Example 3. A subset should contain numbers from the set {1,2,3,4,5} that are greater than 3",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "e3672e83-f908-4065-b306-eb4ae70204c9",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Tuple",
+        "Set Builder Notation",
+        "Ordered Pair"
+      ],
+      "extracted_quotes": [],
+      "full_text": "ACTIVITY 2: Set Builder Notation with Tuples Consider two sets: A={1,2,3} and B={a,b}1. Define the set S using set builder notation that represents all possible ordered pairs, called tuples, (x,y) where x belongs to set A and y belongs to set B.2. Define a set T using set builder notation, which consists of ordered pairs from S such that the first element of the tuple is greater than 2.",
+      "concept_details": [
+        {
+          "name": "Tuple",
+          "description": "",
+          "formula": "",
+          "example": "A={1,2,3}, B={a,b} (x,y) where x belongs to set A and y belongs to set B.",
+          "application": ""
+        },
+        {
+          "name": "Set Builder Notation",
+          "description": "",
+          "formula": "",
+          "example": "S={(x,y) where x belongs to set A and y belongs to set B}",
+          "application": ""
+        },
+        {
+          "name": "Ordered Pair",
+          "description": "",
+          "formula": "",
+          "example": "(x,y) where x belongs to set A and y belongs to set B.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "7f845274-a29c-4abd-9338-377af5673683",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Union"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Set Operations: Union A∪BCreate a new set by combining all of the elements of two sets All elements that are in A or in B. Venn Diagram",
+      "concept_details": [
+        {
+          "name": "Union",
+          "description": "",
+          "formula": "A∪B",
+          "example": "Venn Diagram",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "cd48f2c0-947b-4cd1-8026-7a02cf540f8c",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Union"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Union Examples Given*A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={} (Empty set) *See the diagram on the next slide A∪B={1,2,3,4,5,6}A∪D={1,2,3,4} (union with an empty set results in the non-empty set)B∪C={3,4,5,6,7,8}",
+      "concept_details": [
+        {
+          "name": "Union",
+          "description": "",
+          "formula": "A∪B={1,2,3,4,5,6}",
+          "example": "*A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={} (Empty set) *See the diagram on the next slide A∪B={1,2,3,4,5,6}A∪D={1,2,3,4} (union with an empty set results in the non-empty set)B∪C={3,4,5,6,7,8}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "518779eb-703c-40f1-8c04-26a739faf3cb",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Intersection"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Set Operations: Intersection A∩BCreate a new set (C), using the elements the two sets have in common.All elements that are both in A and in B.",
+      "concept_details": [
+        {
+          "name": "Intersection",
+          "description": "",
+          "formula": "A∩B",
+          "example": "Create a new set (C), using the elements the two sets have in common.All elements that are both in A and in B.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "e31f7562-cb2c-48ce-b30f-ea4446543f6f",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Intersection"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Intersection Examples Given A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={}(Empty set) A∩B={3,4}A∩D={}(intersection with an empty set results in the empty set)B∩C={6}",
+      "concept_details": [
+        {
+          "name": "Intersection",
+          "description": "",
+          "formula": "A ∩ B = {x | x ∈ A ∧ x ∈ B}",
+          "example": "A={1,2,3,4},B={3,4,5,6},C={6,7,8},D={}, so A∩B={3,4} and A∩D={} (intersection with an empty set results in the empty set) and B∩C={6}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "e69a75e5-eb7b-425f-a4b8-6c5be180c18e",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Difference"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Set Operations: Difference A∖BCreate a new set (C) by taking all of the elements of the first set (A) and removing from it all of the elements in the second set (B)All elements in A but not in B",
+      "concept_details": [
+        {
+          "name": "Difference",
+          "description": "Create a new set (C) by taking all of the elements of the first set (A) and removing from it all of the elements in the second set (B)",
+          "formula": "A∖B",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "60932645-5b54-4595-92b9-249a42c68156",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Subset",
+        "Difference"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Difference Examples Given A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={} (Empty set) •A∖B={1,2} (Elements in A that are not in B)• A∖D={1,2,3,4} (Difference with an empty set results in the original set)•C∖B={7,8}",
+      "concept_details": [
+        {
+          "name": "Subset",
+          "description": "",
+          "formula": "A ⊆ B",
+          "example": "A={1,2}, B={1,2,3}, so A⊆B",
+          "application": ""
+        },
+        {
+          "name": "Difference",
+          "description": "",
+          "formula": "A ∖ B",
+          "example": "A={1,2,3,4}, B={3,4,5,6}, C={6,7,8}, D={} (Empty set) • A∖B={1,2} (Elements in A that are not in B)• A∖D={1,2,3,4} (Difference with an empty set results in the original set)•C∖B={7,8}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "f1c05f6c-bca0-4fc3-b8e6-5ece8028c41c",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Complement"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Set Operations: Complementation A′ or Ac All elements not in A, with respect to a universal set U (S). A’",
+      "concept_details": [
+        {
+          "name": "Complement",
+          "description": "",
+          "formula": "A′ or Ac",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "d14487c1-6bfa-46f7-9701-1eab40de4451",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Commutative Laws",
+        "Associative Laws",
+        "Distributive Laws",
+        "Identity Laws",
+        "Complement Laws",
+        "Idempotent Laws",
+        "Double Negation Law",
+        "Absorption Laws"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+      "concept_details": [
+        {
+          "name": "Commutative Laws",
+          "description": "",
+          "formula": "A∪B=B∪A, A∩B=B∩A",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Associative Laws",
+          "description": "",
+          "formula": "A∪(B∪C)=(A∪B)∪C, A∩(B∩C)=(A∩B)∩C",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Distributive Laws",
+          "description": "",
+          "formula": "A∩(B∪C)=(A∩B)∪(A∩C), A∪(B∩C)=(A∪B)∩(A∪C)",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Identity Laws",
+          "description": "",
+          "formula": "A∪∅=A, A∩U=A",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Complement Laws",
+          "description": "",
+          "formula": "A∪A′=U, A∩A′=∅",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Idempotent Laws",
+          "description": "",
+          "formula": "A∪A=A, A∩A=A",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Double Negation Law",
+          "description": "",
+          "formula": "(A′)′=A, AA′=∅",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Absorption Laws",
+          "description": "",
+          "formula": "A∪(A∩B)=A, A∩(A∪B)=A",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "52155f82-ceef-463b-b7cd-fbd3654da5d2",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Power Set"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Power Set The power set of a set is the set of all possible subsets of that set, including the empty set and the set itself. If S is a set, the power set of S is usually denoted as P(S) or 2S.Example:For the set S={a,b}, the power set P(S) is: P(S)={∅,{a},{b},{a,b}} Cardinality of Power Set: The number of elements in the power set of S is 2n, where n is the number of elements in S. For example, |P(S)|=22=4",
+      "concept_details": [
+        {
+          "name": "Power Set",
+          "description": "The set of all possible subsets of that set, including the empty set and the set itself.",
+          "formula": "P(S) or 2S",
+          "example": "For the set S={a,b}, the power set P(S) is: P(S)={∅,{a},{b},{a,b}}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "dd83caa8-28a7-4253-9bf6-4d9251d842ca",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Power Set"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Example: Power Set S={p,q,r,s}The power set P(S) is the set of all possible subsets of S, including the empty set and S itself.P(S)={∅,{p},{q},{r},{s},{p,q},{p,r},{p,s},{q,r},{q,s},{r,s},{p,q,r}, {p,q,s},{p,r,s},{q,r,s},{p,q,r,s}} There are a total of 24=16 subsets in the power set P(S)",
+      "concept_details": [
+        {
+          "name": "Power Set",
+          "description": "",
+          "formula": "P(S)={∅,{p},{q},{r},{s},{p,q},{p,r},{p,s},{q,r},{q,s},{r,s},{p,q,r}, {p,q,s},{p,r,s},{q,r,s},{p,q,r,s}}",
+          "example": "S={p,q,r,s}The power set P(S) is the set of all possible subsets of S, including the empty set and S itself.",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "5a1c3200-4768-4f8e-a574-80b03a66b931",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Ordered Pair",
+        "Cartesian Product Of Sets"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Cartesian Product The Cartesian product of two sets is the set of all ordered pairs where the first element in each pair is from the first set, and the second element is from the second set. The Cartesian product of sets A and B is denoted as A×B.Example:A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}Order Matters! The order of sets in a Cartesian product is significant. A×B is not necessarily the same as B×A. For instance, using the sets from the above example, B×A={(a,1),(a,2),(b,1),(b,2)}, which is different from A×B.",
+      "concept_details": [
+        {
+          "name": "Ordered Pair",
+          "description": "",
+          "formula": "",
+          "example": "A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}",
+          "application": ""
+        },
+        {
+          "name": "Cartesian Product Of Sets",
+          "description": "The set of all ordered pairs where the first element in each pair is from the first set, and the second element is from the second set.",
+          "formula": "A×B",
+          "example": "A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "6357100a-4c13-4434-aca9-3585900f2e99",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Interval",
+        "Open Interval",
+        "Closed Interval",
+        "Half-open Interval (left)",
+        "Half-open Interval (right)",
+        "Infinite Interval (right)",
+        "Infinite Interval (left)",
+        "Closed Infinite (right)",
+        "Closed Infinite (left)"
+      ],
+      "extracted_quotes": [],
+      "full_text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+      "concept_details": [
+        {
+          "name": "Interval",
+          "description": "A subset of the real number line, usually referring to all numbers between two endpoints.",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Open Interval",
+          "description": "Contains all numbers between a and b but not including a and b.",
+          "formula": "(a,b)",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Closed Interval",
+          "description": "Contains all numbers between a and b including a and b.",
+          "formula": "[a,b]",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Half-open Interval (left)",
+          "description": "Contains all numbers between a and b, including b but excluding a.",
+          "formula": "(a,b]",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Half-open Interval (right)",
+          "description": "Contains all numbers between a and b, including a but excluding b.",
+          "formula": "[a,b)",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Infinite Interval (right)",
+          "description": "Contains all numbers greater than a.",
+          "formula": "(a,∞)",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Infinite Interval (left)",
+          "description": "Contains all numbers less than a.",
+          "formula": "(-∞,a)",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Closed Infinite (right)",
+          "description": "Contains all numbers greater than or equal to a.",
+          "formula": "[a,∞)",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Closed Infinite (left)",
+          "description": "Contains all numbers less than or equal to a.",
+          "formula": "(-∞,a]",
+          "example": "",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "29b76398-5444-4654-bbd2-6bbebc4fd3ca",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Interval",
+        "Set"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Examples of Interval Tasks Task 1. Determine if the provided number belongs to the given interval, which contains integers only:1. Interval: (2,5) Number: 3.7512. Interval: [1,4) Number: 13. Interval: (5,8] Number: 54. Interval: [−2,2] Number: 05. Set:{-2, 2} Number: 0Answer: 1. Yes; 2. Yes; 3. No; 4. Yes; 5. No Task 2. For each set described by the given set builder notation, identify the corresponding interval:A={x | −2<x<4}; B={x | 1≤x<5}; C={x | x≤0}Answer: A=(−2,4); B=[1,5); C=(−∞,0]",
+      "concept_details": [
+        {
+          "name": "Interval",
+          "description": "",
+          "formula": "",
+          "example": "Interval: (2,5) Number: 3.7512. Interval: [1,4) Number: 13. Interval: (5,8] Number: 54. Interval: [−2,2] Number: 05. Set:{-2, 2} Number: 0",
+          "application": ""
+        },
+        {
+          "name": "Set",
+          "description": "",
+          "formula": "",
+          "example": "A={x | −2<x<4}; B={x | 1≤x<5}; C={x | x≤0}",
+          "application": ""
+        }
+      ]
+    },
+    {
+      "chunk_id": "e5d1ea90-60a4-474f-9761-c60bca12dbdc",
+      "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+      "module": "Mathematics for Computing",
+      "week": "2",
+      "associated_concepts": [
+        "Attribute Sets",
+        "Intervals"
+      ],
+      "extracted_quotes": [],
+      "full_text": "Sets vs Intervals Attribute Sets Intervals Definition A collection of distinct objects.A continuous section of the number line.Notation Listed elements, e.g., {1,2,3}Bracketed endpoints, e.g., [a,b] Elements Can be discrete or continuous.Always continuous (on the real number line).Examples{2,4,6}(2,5)Inclusivity Explicitly includes each listed element.Defined by the type of interval (open, closed, half-open)Representation Can represent numbers, characters, etc.Represents a range of numbers.",
+      "concept_details": [
+        {
+          "name": "Attribute Sets",
+          "description": "",
+          "formula": "",
+          "example": "",
+          "application": ""
+        },
+        {
+          "name": "Intervals",
+          "description": "A continuous section of the number line.",
+          "formula": "",
+          "example": "(2,5)",
+          "application": ""
+        }
+      ]
+    }
+  ],
+  "concept_index": {
+    "Roles Of Mathematics In Computer Science": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Mathematics associated with computer science areas Source: Baldwin, D., Walker, H.M. and Henderson, P.B., 2013. The roles of mathematics in computer science.Acm Inroads,4(4), pp.74-80.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Logical Reasoning": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Maths sharpens the ability to think logically",
+          "Many algorithms are based on mathematical principles",
+          "Concepts like sets, graphs, and trees",
+          "Requires understanding of statistics",
+          "Geometry and trigonometry",
+          "Number theory and modular arithmetic",
+          "Maths helps analyse"
+        ],
+        "text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Algorithms": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Maths sharpens the ability to think logically",
+          "Many algorithms are based on mathematical principles",
+          "Concepts like sets, graphs, and trees",
+          "Requires understanding of statistics",
+          "Geometry and trigonometry",
+          "Number theory and modular arithmetic",
+          "Maths helps analyse"
+        ],
+        "text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+        "formula": "",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Discrete Mathematics What is Discrete Mathematics?•A branch of mathematics that deals with distinct, separate, or non-continuous structures.Main Topics in Discrete Math:•Logic: Propositions, truth tables, predicates, and quantifiers.•Set Theory: Basics of sets, operations, and relations.•Combinatorics: Counting, permutations, and combinations.•Graph Theory: Vertices, edges, trees, and traversal.•Number Theory: Prime numbers, divisibility, and modular arithmetic.•Algorithms: Analysis, sorting, and searching.Discrete Mathematics provides the essential theoretical foundation for many areas of computer science and informs our understanding of the digital world.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Data Structures": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Maths sharpens the ability to think logically",
+          "Many algorithms are based on mathematical principles",
+          "Concepts like sets, graphs, and trees",
+          "Requires understanding of statistics",
+          "Geometry and trigonometry",
+          "Number theory and modular arithmetic",
+          "Maths helps analyse"
+        ],
+        "text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Machine Learning/Ai": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Maths sharpens the ability to think logically",
+          "Many algorithms are based on mathematical principles",
+          "Concepts like sets, graphs, and trees",
+          "Requires understanding of statistics",
+          "Geometry and trigonometry",
+          "Number theory and modular arithmetic",
+          "Maths helps analyse"
+        ],
+        "text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Computer Graphics": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Maths sharpens the ability to think logically",
+          "Many algorithms are based on mathematical principles",
+          "Concepts like sets, graphs, and trees",
+          "Requires understanding of statistics",
+          "Geometry and trigonometry",
+          "Number theory and modular arithmetic",
+          "Maths helps analyse"
+        ],
+        "text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Cryptography & Security": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Maths sharpens the ability to think logically",
+          "Many algorithms are based on mathematical principles",
+          "Concepts like sets, graphs, and trees",
+          "Requires understanding of statistics",
+          "Geometry and trigonometry",
+          "Number theory and modular arithmetic",
+          "Maths helps analyse"
+        ],
+        "text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Efficiency And Optimisation": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Maths sharpens the ability to think logically",
+          "Many algorithms are based on mathematical principles",
+          "Concepts like sets, graphs, and trees",
+          "Requires understanding of statistics",
+          "Geometry and trigonometry",
+          "Number theory and modular arithmetic",
+          "Maths helps analyse"
+        ],
+        "text": "Why do Maths for Computing is essential for programming?LOGICAL REASONING: Maths sharpens the ability to think logically and solve problems, essential for writing efficient algorithms and code. ALGORITHMIC FOUNDATION: Many algorithms are based on mathematical principles and formulas.DATA STRUCTURES: Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures. MACHINE LEARNING/AI: Requires understanding of statistics, probability, linear algebra, and calculus.COMPUTER GRAPHICS: Geometry and trigonometry are fundamental for rendering images and animations.CRYPTOGRAPHY & SECURITY: Number theory and modular arithmetic form the basis of cryptographic algorithms.EFFICIENCY AND OPTIMSATION: Maths helps analyse and improve code efficiency through big O notation and other methods.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Logic": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Discrete Mathematics What is Discrete Mathematics?•A branch of mathematics that deals with distinct, separate, or non-continuous structures.Main Topics in Discrete Math:•Logic: Propositions, truth tables, predicates, and quantifiers.•Set Theory: Basics of sets, operations, and relations.•Combinatorics: Counting, permutations, and combinations.•Graph Theory: Vertices, edges, trees, and traversal.•Number Theory: Prime numbers, divisibility, and modular arithmetic.•Algorithms: Analysis, sorting, and searching.Discrete Mathematics provides the essential theoretical foundation for many areas of computer science and informs our understanding of the digital world.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Set Theory": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Discrete Mathematics What is Discrete Mathematics?•A branch of mathematics that deals with distinct, separate, or non-continuous structures.Main Topics in Discrete Math:•Logic: Propositions, truth tables, predicates, and quantifiers.•Set Theory: Basics of sets, operations, and relations.•Combinatorics: Counting, permutations, and combinations.•Graph Theory: Vertices, edges, trees, and traversal.•Number Theory: Prime numbers, divisibility, and modular arithmetic.•Algorithms: Analysis, sorting, and searching.Discrete Mathematics provides the essential theoretical foundation for many areas of computer science and informs our understanding of the digital world.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Combinatorics": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Discrete Mathematics What is Discrete Mathematics?•A branch of mathematics that deals with distinct, separate, or non-continuous structures.Main Topics in Discrete Math:•Logic: Propositions, truth tables, predicates, and quantifiers.•Set Theory: Basics of sets, operations, and relations.•Combinatorics: Counting, permutations, and combinations.•Graph Theory: Vertices, edges, trees, and traversal.•Number Theory: Prime numbers, divisibility, and modular arithmetic.•Algorithms: Analysis, sorting, and searching.Discrete Mathematics provides the essential theoretical foundation for many areas of computer science and informs our understanding of the digital world.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Graph Theory": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Discrete Mathematics What is Discrete Mathematics?•A branch of mathematics that deals with distinct, separate, or non-continuous structures.Main Topics in Discrete Math:•Logic: Propositions, truth tables, predicates, and quantifiers.•Set Theory: Basics of sets, operations, and relations.•Combinatorics: Counting, permutations, and combinations.•Graph Theory: Vertices, edges, trees, and traversal.•Number Theory: Prime numbers, divisibility, and modular arithmetic.•Algorithms: Analysis, sorting, and searching.Discrete Mathematics provides the essential theoretical foundation for many areas of computer science and informs our understanding of the digital world.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Number Theory": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Discrete Mathematics What is Discrete Mathematics?•A branch of mathematics that deals with distinct, separate, or non-continuous structures.Main Topics in Discrete Math:•Logic: Propositions, truth tables, predicates, and quantifiers.•Set Theory: Basics of sets, operations, and relations.•Combinatorics: Counting, permutations, and combinations.•Graph Theory: Vertices, edges, trees, and traversal.•Number Theory: Prime numbers, divisibility, and modular arithmetic.•Algorithms: Analysis, sorting, and searching.Discrete Mathematics provides the essential theoretical foundation for many areas of computer science and informs our understanding of the digital world.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Decimal Number System": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Formats: Decimal Number System Thedecimal number system(base-10) is the standard system for representing numbers, using the digits 0 through 9. Each position in a decimal number has aplace valuebased on powers of 10, making it intuitive for everyday use.Base-10: The decimal system uses10 digits(0–9).Place Value: Each digit's position determines its value, increasing by powers of 10 as you move left.Example:The number3471represents:3×103=30004×102=4007×101=701×100=1Total:3000+400+70+1=3471",
+        "formula": "base-10",
+        "example": "Each position in a decimal number has a place value based on powers of 10, making it intuitive for everyday use."
+      }
+    ],
+    "Binary Number System": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Formats: Binary Number System Thebinary number systemis abase-2 numeral systemthat uses only two digits: 0 and 1. Regardless of size, every number can be represented in binary form, making it the fundamental numbering system for computers and digital systems. Examples:•14 in binary:11102•245 in binary:111101012•34567 in binary:10000111000011112 All data in a computer is stored in binary, whether it's text, images, or numbers.Why Binary?Computers use binary because they operate using electrical signals with two states: ON (1) and OFF (0). This makes binary the most efficient way to represent and process data electronically.Memory consists of individual bits (binary digits), each of which is either a 0 or 1. These bits are grouped into bytes (8 bits), and sequences of bytes are used to store more complex data, such as numbers, characters, or larger structures like arrays and files.",
+        "formula": "",
+        "example": "•14 in binary:11102 •245 in binary:111101012 •34567 in binary:10000111000011112"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Binary Number System and Modular Arithmetic Thebinary number system(base-2) andmodular arithmeticare closely related. Modular arithmetic operates on numbers with a fixed range, much like how binary numbers wrap around when adding or subtracting (mod2).",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Decimal To Binary Conversion": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Conversion Between Number Systems Decimal to Binary Conversion: Repeatedly divide the decimal number by 2, keeping track of the remainders. The binary number is the sequence of remainders read from bottom to top.Example: Convert19 to binary.Divide by 2and keep track of the remainders:1.19 ÷ 2 = 9 remainder12.9 ÷ 2 = 4 remainder13.4 ÷ 2 = 2 remainder04.2 ÷ 2 = 1 remainder05.1 ÷ 2 = 0 remainder1Result: Reading the remainders from bottom to top. 19 in decimalis10011 in binary. Binary to Decimal Conversion: Multiply each binary digit by2n, wherenis the position of the digit, starting from 0 from the right. Example: Convert10011back to decimal.Start from the rightmost bit and multiply each bit by powers of 2, based on its position:1.1 × 24 = 16 2.0 × 23 = 0 3.0 × 22 = 0 4.1 × 21 = 2 5.1 × 20 = 1Result: Add them together.16 + 0 + 0 + 2 + 1 =19 Binary Storage in Memory:",
+        "formula": "",
+        "example": "Convert19 to binary.Divide by 2and keep track of the remainders:1.19 ÷ 2 = 9 remainder12.9 ÷ 2 = 4 remainder13.4 ÷ 2 = 2 remainder04.2 ÷ 2 = 1 remainder05.1 ÷ 2 = 0 remainder1Result: Reading the remainders from bottom to top. 19 in decimalis10011 in binary."
+      }
+    ],
+    "Binary To Decimal Conversion": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Conversion Between Number Systems Decimal to Binary Conversion: Repeatedly divide the decimal number by 2, keeping track of the remainders. The binary number is the sequence of remainders read from bottom to top.Example: Convert19 to binary.Divide by 2and keep track of the remainders:1.19 ÷ 2 = 9 remainder12.9 ÷ 2 = 4 remainder13.4 ÷ 2 = 2 remainder04.2 ÷ 2 = 1 remainder05.1 ÷ 2 = 0 remainder1Result: Reading the remainders from bottom to top. 19 in decimalis10011 in binary. Binary to Decimal Conversion: Multiply each binary digit by2n, wherenis the position of the digit, starting from 0 from the right. Example: Convert10011back to decimal.Start from the rightmost bit and multiply each bit by powers of 2, based on its position:1.1 × 24 = 16 2.0 × 23 = 0 3.0 × 22 = 0 4.1 × 21 = 2 5.1 × 20 = 1Result: Add them together.16 + 0 + 0 + 2 + 1 =19 Binary Storage in Memory:",
+        "formula": "",
+        "example": "Convert10011back to decimal.Start from the rightmost bit and multiply each bit by powers of 2, based on its position:1.1 × 24 = 16 2.0 × 23 = 0 3.0 × 22 = 0 4.1 × 21 = 2 5.1 × 20 = 1Result: Add them together.16 + 0 + 0 + 2 + 1 =19"
+      }
+    ],
+    "Real Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Types Real Numbers (R) Rational Numbers (Q) (can be expressed as the quotient or fraction of two integers): ½, ¾, -1,457 Irrational Numbers (I) (cannot be expressed as the quotient or fraction of two integers): √3, etc. Integers (Z): …,-3,-2,-1,0,1,2,3,…Whole Numbers (W): 0,1,2,3,...Natural Numbers (N):1,2,3,4,5,…",
+        "formula": "",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Sets in Mathematics and Their Programming Equivalents Mathematical Set Example Values Typical Programming Data Type Notes ℕ (Natural numbers)0, 1, 2, 3…int(integer)Computers don’t distinguish between “positive only” and “all integers.”ℤ (Integers)–2, –1, 0, 1, 2int(integer)Usually stored in fixed-size formats (e.g. 32-bit, 64-bit). ℚ (Rational numbers)½, –7/3fractions.Fraction(Python), custom class, or twoints (numerator/denominator)Not built-in in most languages; usually represented as a pair of integers. ℝ (Real numbers)3.14, –0.01, √2floatordouble(floating-point)Computers can only approximate real numbers due to finite memory.ℂ (Complex numbers)2 + 3icomplex(Python),Complexclass (Java, C#)Not always built-in, but available in some languages.",
+        "formula": "",
+        "example": "3.14, -0.01, √2"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Some well-known and named sets“N” is the natural numbers{0, 1, 2, 3, 4, 5, …}“Z” is the set of integers {…-2,-1,0,1,2,…}“Q” is the set of rational numbers“R” is the set of real numbers Real Numbers (R) Rational Numbers (Q) Irrational Numbers (I) Integers (Z) Whole Numbers (W) Natural Numbers (N)",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Rational Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Types Real Numbers (R) Rational Numbers (Q) (can be expressed as the quotient or fraction of two integers): ½, ¾, -1,457 Irrational Numbers (I) (cannot be expressed as the quotient or fraction of two integers): √3, etc. Integers (Z): …,-3,-2,-1,0,1,2,3,…Whole Numbers (W): 0,1,2,3,...Natural Numbers (N):1,2,3,4,5,…",
+        "formula": "",
+        "example": "½, ¾, -1,457"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Sets in Mathematics and Their Programming Equivalents Mathematical Set Example Values Typical Programming Data Type Notes ℕ (Natural numbers)0, 1, 2, 3…int(integer)Computers don’t distinguish between “positive only” and “all integers.”ℤ (Integers)–2, –1, 0, 1, 2int(integer)Usually stored in fixed-size formats (e.g. 32-bit, 64-bit). ℚ (Rational numbers)½, –7/3fractions.Fraction(Python), custom class, or twoints (numerator/denominator)Not built-in in most languages; usually represented as a pair of integers. ℝ (Real numbers)3.14, –0.01, √2floatordouble(floating-point)Computers can only approximate real numbers due to finite memory.ℂ (Complex numbers)2 + 3icomplex(Python),Complexclass (Java, C#)Not always built-in, but available in some languages.",
+        "formula": "",
+        "example": "½, -7/3"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Some well-known and named sets“N” is the natural numbers{0, 1, 2, 3, 4, 5, …}“Z” is the set of integers {…-2,-1,0,1,2,…}“Q” is the set of rational numbers“R” is the set of real numbers Real Numbers (R) Rational Numbers (Q) Irrational Numbers (I) Integers (Z) Whole Numbers (W) Natural Numbers (N)",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Irrational Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Types Real Numbers (R) Rational Numbers (Q) (can be expressed as the quotient or fraction of two integers): ½, ¾, -1,457 Irrational Numbers (I) (cannot be expressed as the quotient or fraction of two integers): √3, etc. Integers (Z): …,-3,-2,-1,0,1,2,3,…Whole Numbers (W): 0,1,2,3,...Natural Numbers (N):1,2,3,4,5,…",
+        "formula": "",
+        "example": "√3, etc."
+      }
+    ],
+    "Integers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Types Real Numbers (R) Rational Numbers (Q) (can be expressed as the quotient or fraction of two integers): ½, ¾, -1,457 Irrational Numbers (I) (cannot be expressed as the quotient or fraction of two integers): √3, etc. Integers (Z): …,-3,-2,-1,0,1,2,3,…Whole Numbers (W): 0,1,2,3,...Natural Numbers (N):1,2,3,4,5,…",
+        "formula": "",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Sets in Mathematics and Their Programming Equivalents Mathematical Set Example Values Typical Programming Data Type Notes ℕ (Natural numbers)0, 1, 2, 3…int(integer)Computers don’t distinguish between “positive only” and “all integers.”ℤ (Integers)–2, –1, 0, 1, 2int(integer)Usually stored in fixed-size formats (e.g. 32-bit, 64-bit). ℚ (Rational numbers)½, –7/3fractions.Fraction(Python), custom class, or twoints (numerator/denominator)Not built-in in most languages; usually represented as a pair of integers. ℝ (Real numbers)3.14, –0.01, √2floatordouble(floating-point)Computers can only approximate real numbers due to finite memory.ℂ (Complex numbers)2 + 3icomplex(Python),Complexclass (Java, C#)Not always built-in, but available in some languages.",
+        "formula": "",
+        "example": "-2, -1, 0, 1, 2"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Why are Integers popular in coding?§Efficiency: Integers are stored and processed more quickly by the CPU compared to floating-point numbers.§Exact Values: Unlike floating-point numbers, integers represent exact values without rounding errors.§Memory Usage: Integers require less memory compared to more complex data types like floats or doubles.§Looping and Indexing: Commonly used to control loops and index arrays due to their precision and simplicity.§Bitwise Operations: Integers are ideal for bit-level operations (AND, OR, XOR) and shifting, commonly used in low-level programming.§Compatibility: Widely supported by all programming languages and hardware architectures.",
+        "formula": "",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Some well-known and named sets“N” is the natural numbers{0, 1, 2, 3, 4, 5, …}“Z” is the set of integers {…-2,-1,0,1,2,…}“Q” is the set of rational numbers“R” is the set of real numbers Real Numbers (R) Rational Numbers (Q) Irrational Numbers (I) Integers (Z) Whole Numbers (W) Natural Numbers (N)",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Whole Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Types Real Numbers (R) Rational Numbers (Q) (can be expressed as the quotient or fraction of two integers): ½, ¾, -1,457 Irrational Numbers (I) (cannot be expressed as the quotient or fraction of two integers): √3, etc. Integers (Z): …,-3,-2,-1,0,1,2,3,…Whole Numbers (W): 0,1,2,3,...Natural Numbers (N):1,2,3,4,5,…",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Natural Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Types Real Numbers (R) Rational Numbers (Q) (can be expressed as the quotient or fraction of two integers): ½, ¾, -1,457 Irrational Numbers (I) (cannot be expressed as the quotient or fraction of two integers): √3, etc. Integers (Z): …,-3,-2,-1,0,1,2,3,…Whole Numbers (W): 0,1,2,3,...Natural Numbers (N):1,2,3,4,5,…",
+        "formula": "",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Sets in Mathematics and Their Programming Equivalents Mathematical Set Example Values Typical Programming Data Type Notes ℕ (Natural numbers)0, 1, 2, 3…int(integer)Computers don’t distinguish between “positive only” and “all integers.”ℤ (Integers)–2, –1, 0, 1, 2int(integer)Usually stored in fixed-size formats (e.g. 32-bit, 64-bit). ℚ (Rational numbers)½, –7/3fractions.Fraction(Python), custom class, or twoints (numerator/denominator)Not built-in in most languages; usually represented as a pair of integers. ℝ (Real numbers)3.14, –0.01, √2floatordouble(floating-point)Computers can only approximate real numbers due to finite memory.ℂ (Complex numbers)2 + 3icomplex(Python),Complexclass (Java, C#)Not always built-in, but available in some languages.",
+        "formula": "",
+        "example": "0, 1, 2, 3…"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Some well-known and named sets“N” is the natural numbers{0, 1, 2, 3, 4, 5, …}“Z” is the set of integers {…-2,-1,0,1,2,…}“Q” is the set of rational numbers“R” is the set of real numbers Real Numbers (R) Rational Numbers (Q) Irrational Numbers (I) Integers (Z) Whole Numbers (W) Natural Numbers (N)",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Complex Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Number Sets in Mathematics and Their Programming Equivalents Mathematical Set Example Values Typical Programming Data Type Notes ℕ (Natural numbers)0, 1, 2, 3…int(integer)Computers don’t distinguish between “positive only” and “all integers.”ℤ (Integers)–2, –1, 0, 1, 2int(integer)Usually stored in fixed-size formats (e.g. 32-bit, 64-bit). ℚ (Rational numbers)½, –7/3fractions.Fraction(Python), custom class, or twoints (numerator/denominator)Not built-in in most languages; usually represented as a pair of integers. ℝ (Real numbers)3.14, –0.01, √2floatordouble(floating-point)Computers can only approximate real numbers due to finite memory.ℂ (Complex numbers)2 + 3icomplex(Python),Complexclass (Java, C#)Not always built-in, but available in some languages.",
+        "formula": "",
+        "example": "2 + 3i"
+      }
+    ],
+    "Prime Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Introduction to the Number Theory NUMBER THEORY is a branch of pure mathematics devoted to the study of integers and, more generally, to objects built out of them.Integers (ℤ)are the set of whole numbers and their negatives, including zero. In other words, they extend whole numbers by adding the negative counterparts. The symbolℤcomes from the German word“Zahlen”, meaning “numbers.”Formally: Z={…,−3,−2,−1,0,1,2,3,…} Prime and Composite Numbers•Prime Numbers: Natural numbers greater than 1 that have no positive divisors other than 1 and itself.•Composite Numbers: Natural numbers greater than 1 that are not prime.Example: 5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4.",
+        "formula": "",
+        "example": "5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4."
+      }
+    ],
+    "Composite Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Introduction to the Number Theory NUMBER THEORY is a branch of pure mathematics devoted to the study of integers and, more generally, to objects built out of them.Integers (ℤ)are the set of whole numbers and their negatives, including zero. In other words, they extend whole numbers by adding the negative counterparts. The symbolℤcomes from the German word“Zahlen”, meaning “numbers.”Formally: Z={…,−3,−2,−1,0,1,2,3,…} Prime and Composite Numbers•Prime Numbers: Natural numbers greater than 1 that have no positive divisors other than 1 and itself.•Composite Numbers: Natural numbers greater than 1 that are not prime.Example: 5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4.",
+        "formula": "",
+        "example": "5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4."
+      }
+    ],
+    "Factorisation": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Fundamental Theorem of Arithmetic Statement: Every integer greater than 1 is either a prime number itself or can be factorised uniquely into prime numbers up to the order of the factors.Implication: Prime numbers are the “building blocks” of all natural numbers.The factorisation is decomposing a number into a product of other numbers. In the context of the Fundamental Theorem of Arithmetic, factorisation refers specifically to representing an integer as a product of prime numbers.Example of Factorisation:Consider the number 84. We can factorise it as follows: 84=2×42=2×(2×21)=2×2×(3×7)=22×3×7",
+        "formula": "n = p1 × p2 × ... × pn",
+        "example": "84=2×42=2×(2×21)=2×2×(3×7)=22×3×7"
+      }
+    ],
+    "Division Theorem": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Division Theorem For two integersaandbwhereb ≠ 0, there always exists unique integersqandrsuch thata = qb + rand0 ≤ r < |b|. Example:a= 17,b=3, we can findq= 5 andr= 2 so that 17 = 3*5+2ais called thedividendbis called thedivisorqis called thequotientris called theremainder Ifr = 0, then we saybdividesaoraisdivisiblebyb. \"# = Q rem R",
+        "formula": "",
+        "example": "a=17,b=3, we can findq=5 andr=2 so that 17 = 3*5+2"
+      }
+    ],
+    "Congruent Numbers": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Numbers are treated as equivalent if they leave the same remainder when divided by b."
+        ],
+        "text": "Modular Arithmetic Basics Modular arithmetic is a system of arithmetic for integers, where numbers \"wrap around\" after reaching a certain value, known as the modulus.Inmodular arithmetic, we focus on theremainder rwhen dividingabyb.Modular Arithmetic Notation: A mod B = R (vs. Division Theorem:!\" = Q rem R) Example:(1) 14mod5=4(since14=2×5+4 or!\"# = 2 rem 4)We also say 14≡4(mod5) That means14 is congruent to 4 modulo 5. In fact, any number that leaves remainder4 when divided by 5is congruent to 14 modulo 5. So, the full set of numbers congruent to 14 is: {…,−6,−1,4,9,14,19,24,…} In general: 14≡4≡9≡19≡24≡…(mod5)(2) 23mod7=2(since23=3×7+2 or#$% = 3 rem 2)The full set: {…,−12,−5,2,9,16,23,30,37,…}, 23≡2≡9≡16≡30≡37≡…(mod7)Key Idea: Numbers are treated asequivalent if they leave the same remainderwhen divided byb.",
+        "formula": "A ≡ B (mod n)",
+        "example": "14 ≡ 4 (mod 5), 23 ≡ 2 (mod 7)"
+      }
+    ],
+    "Clock Arithmetic": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Modular Arithmetic Examples 12hrs Clock 8 hrs +10 hrs =What time is it?8 hrs +22 hrs=???22 hrs= 10hrs+12hrs U.K. schools getting rid of analogue clocks because teens “cannot tell time.” Source: CBS News, May 8, 2018",
+        "formula": "",
+        "example": "8 hrs +10 hrs =What time is it?8 hrs +22 hrs=???22 hrs= 10hrs+12hrs"
+      }
+    ],
+    "Modulo Operation": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Modular Arithmetic Examples 7mod2=1 -5 mod 3 =1 7 mod 2 -5 mod 3 8 mod 4 8 mod 4 = 0",
+        "formula": "",
+        "example": "7 mod 2=1, -5 mod 3 =1, 8 mod 4 = 0"
+      }
+    ],
+    "Modular Arithmetic": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Applications of Modular Mathematics•Cryptography: Used in encryption algorithms (e.g., RSA, Diffie-Hellman) to secure communications.•Hash Functions: Modular arithmetic is used in hash algorithms to distribute data evenly in hash tables.•Error Detection: Algorithms like CRC (Cyclic Redundancy Check) use modular arithmetic to detect errors in data transmission.•Random Number Generation: Modular arithmetic helps generate pseudo-random numbers in algorithms.•Computer Graphics: Used in algorithms for color wrapping and texture mapping.•Scheduling Algorithms: Time-based tasks use modular arithmetic to loop within fixed periods (e.g., clocks, calendars). Source: Imitation Game film screenshot",
+        "formula": "",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Binary Number System and Modular Arithmetic Thebinary number system(base-2) andmodular arithmeticare closely related. Modular arithmetic operates on numbers with a fixed range, much like how binary numbers wrap around when adding or subtracting (mod2).",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Caesar Cipher": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "HOMEWORK ACTIVITY: Codebreakers Task: Decrypt a Simple Caesar Cipher Message Manually The Caesar Cipher shifts each letter in the alphabet by a fixed number (key). The encryption equation is: C≡P+k mod 26, where C is the ciphertext letter, P is the plaintext letter, k is the shift value (key).26 represents the number of letters in the English alphabet. Given: You are given an encrypted message: \"UPQY\"—the shift value (key) k=2.Decrypt the given message manually on paper. Hints: Write down the corresponding numeric values for each letter in the encrypted message (U=20, P=15, Y=24, Q=16). Use the decryption equation: P≡C−k mod26",
+        "formula": "C≡P+k mod 26",
+        "example": "U=20, P=15, Y=24, Q=16"
+      }
+    ],
+    "Sequence": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [
+          "Sequences are an ordered list of elements"
+        ],
+        "text": "Sequences A sequence is an ordered list of elements (numbers, objects, etc.), arranged according to a certain rule or pattern. Each element in a sequence is called a term, and the position of a term in a sequence is called its index.Example(2,4,6,8,10,12) – sequence of even numbers(1,3,5,7,9,11) – sequence of odd numbers Sequences can be finite or infinite.",
+        "formula": "",
+        "example": "(2,4,6,8,10,12) – sequence of even numbers (1,3,5,7,9,11) – sequence of odd numbers"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Sequences vs Sets Property Sets Sequences Definition A collection of distinct objects.An ordered list of elements, possibly with repetition.Ordering Order of elements is not significant.Order of elements is significant.Repetition No repetition of elements is allowed.Repetition of elements is allowed.Notation Typically denoted using curly braces {}. Represented using parentheses (), angle brackets <>, or listed.Membership An element either belongs or does not belong.An element can occur multiple times at different positions.Indexing Elements are not indexed.Elements are indexed; there is a first element, a second element, etc.Cardinality/Length Cardinality is the number of distinct elements.Length is the total number of elements, including repetitions.",
+        "formula": "",
+        "example": "A collection of distinct objects."
+      }
+    ],
+    "Arithmetic Sequence": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Arithmetic Sequence An arithmetic sequence (progression) is a sequence of numbers in which the difference between consecutive terms is constant. This difference is called the \"common difference,\" denoted by d. The general form of an arithmetic sequence is a, a+d, a+2d, a+3d, …, here, a is the first term of the sequence.The nth term of an arithmetic sequence can be calculated using the formula: an=a+(n−1)d Example:In the sequence 2, 5, 8, 11, …, the common difference d is 3.",
+        "formula": "an=a+(n−1)d",
+        "example": "2, 5, 8, 11, …, where d is 3."
+      }
+    ],
+    "Geometric Sequence": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Geometric Sequence•A geometric sequence (progression) is a sequence of numbers where each term after the first is found by multiplying the previous term by a fixed, non-zero number called the \"common ratio,\" denoted by r. The general form of a geometric sequence is: a, ar, ar2, ar3,…, here, a is the first term of the sequence.The nth term of a geometric sequence can be calculated using the formula: an=a⋅r(n−1) Example:In the sequence 3, 6, 12, 24, … the common ratio r is 2.",
+        "formula": "an=a⋅r(n−1)",
+        "example": "In the sequence 3, 6, 12, 24, … the common ratio r is 2."
+      }
+    ],
+    "Fibonacci Sequence": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Fibonacci Sequence. Divine Ratio The Fibonacci sequence is a series of numbers in which each is the sum of the two preceding ones, usually starting with 0 and 1. In mathematical terms, the sequence F(n) of Fibonacci numbers is defined by the recurrence relation:F(n)=F(n−1)+F(n−2), with initial conditions: F(0)=0, F(1)=10,1,1,2,3,5,8,13,21,34…Golden (Devine) Ratio: The ratio of consecutive Fibonacci numbers converges to the Golden Ratio. 𝜑 ≈1.618033988749895. This ratio appears in various aspects of art, architecture, and nature.lim!→#(𝐹!$%𝐹!)=𝜑",
+        "formula": "F(n)=F(n−1)+F(n−2), with initial conditions: F(0)=0, F(1)=10,1,1,2,3,5,8,13,21,34…",
+        "example": ""
+      }
+    ],
+    "Golden (devine) Ratio": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "week": "1",
+        "quote": [],
+        "text": "Fibonacci Sequence. Divine Ratio The Fibonacci sequence is a series of numbers in which each is the sum of the two preceding ones, usually starting with 0 and 1. In mathematical terms, the sequence F(n) of Fibonacci numbers is defined by the recurrence relation:F(n)=F(n−1)+F(n−2), with initial conditions: F(0)=0, F(1)=10,1,1,2,3,5,8,13,21,34…Golden (Devine) Ratio: The ratio of consecutive Fibonacci numbers converges to the Golden Ratio. 𝜑 ≈1.618033988749895. This ratio appears in various aspects of art, architecture, and nature.lim!→#(𝐹!$%𝐹!)=𝜑",
+        "formula": "𝜑 ≈1.618033988749895.",
+        "example": ""
+      }
+    ],
+    "Set": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What is a Set?Sets are fundamental objects in mathematics, defined as collections of distinct elements. The elements that make up a set can be anything: numbers, letters, other sets, and so on.Sets are typically denoted using curly braces, with elements separated by commas. Examples: {a,b,c} {☼, 5, ♣} {1, 2, 3, 5, 7}",
+        "formula": "",
+        "example": "{a,b,c} {☼, 5, ♣} {1, 2, 3, 5, 7}"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Examples of Interval Tasks Task 1. Determine if the provided number belongs to the given interval, which contains integers only:1. Interval: (2,5) Number: 3.7512. Interval: [1,4) Number: 13. Interval: (5,8] Number: 54. Interval: [−2,2] Number: 05. Set:{-2, 2} Number: 0Answer: 1. Yes; 2. Yes; 3. No; 4. Yes; 5. No Task 2. For each set described by the given set builder notation, identify the corresponding interval:A={x | −2<x<4}; B={x | 1≤x<5}; C={x | x≤0}Answer: A=(−2,4); B=[1,5); C=(−∞,0]",
+        "formula": "",
+        "example": "A={x | −2<x<4}; B={x | 1≤x<5}; C={x | x≤0}"
+      }
+    ],
+    "Property Sets": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Sequences vs Sets Property Sets Sequences Definition A collection of distinct objects.An ordered list of elements, possibly with repetition.Ordering Order of elements is not significant.Order of elements is significant.Repetition No repetition of elements is allowed.Repetition of elements is allowed.Notation Typically denoted using curly braces {}. Represented using parentheses (), angle brackets <>, or listed.Membership An element either belongs or does not belong.An element can occur multiple times at different positions.Indexing Elements are not indexed.Elements are indexed; there is a first element, a second element, etc.Cardinality/Length Cardinality is the number of distinct elements.Length is the total number of elements, including repetitions.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Membership": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Sequences vs Sets Property Sets Sequences Definition A collection of distinct objects.An ordered list of elements, possibly with repetition.Ordering Order of elements is not significant.Order of elements is significant.Repetition No repetition of elements is allowed.Repetition of elements is allowed.Notation Typically denoted using curly braces {}. Represented using parentheses (), angle brackets <>, or listed.Membership An element either belongs or does not belong.An element can occur multiple times at different positions.Indexing Elements are not indexed.Elements are indexed; there is a first element, a second element, etc.Cardinality/Length Cardinality is the number of distinct elements.Length is the total number of elements, including repetitions.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Empty Set": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "NB: If the empty sets are included on purpose as the elements of the sets, they are counted as separate elements and are included in set cardinality."
+        ],
+        "text": "Empty Set. Cardinality There are some special sets, such as the empty set ∅ or {}, which has no elements, and universal sets (U), which contain all elements under consideration.The cardinality of a set is the number of elements in the set. It is denoted as |A| for a set A.NB: If the empty sets are included on purpose as the elements of the sets, they are counted as separate elements and are included in set cardinality.",
+        "formula": "∅ or {}",
+        "example": ""
+      }
+    ],
+    "Cardinality": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "NB: If the empty sets are included on purpose as the elements of the sets, they are counted as separate elements and are included in set cardinality."
+        ],
+        "text": "Empty Set. Cardinality There are some special sets, such as the empty set ∅ or {}, which has no elements, and universal sets (U), which contain all elements under consideration.The cardinality of a set is the number of elements in the set. It is denoted as |A| for a set A.NB: If the empty sets are included on purpose as the elements of the sets, they are counted as separate elements and are included in set cardinality.",
+        "formula": "|A| for a set A",
+        "example": ""
+      }
+    ],
+    "Equal Sets": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "Equal sets A set A is equivalent to a set B (abbreviated as A = B) if the following conditions hold"
+        ],
+        "text": "Equal sets A set A is equivalent to a set B (abbreviated as A = B) if the following conditions hold1) Every element of A is an element of B 2) Every element of B is an element of AExamples: {1,2,3} = {1,2,3} as both conditions above hold{ ♣ ,☼, 5} = {☼, 5, ♣}",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Subset": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Subsets A set A is considered a (weak) subset of set B if every element of set A is also an element of set B. The notation used to represent this relationship is A⊆B, which can be read as \"A is a subset of B”.This is analogous to the relation “less or equal.”The empty set ∅ is a subset of every set.Examples:•If A={1,2} and B={1,2,3,4}, then A⊆B, because every element of set A (which are 1 and 2) is also an element of set B. •If C={1,2,3,4}, then C⊆B, also C = B.",
+        "formula": "A ⊆ B",
+        "example": "A={1,2}, B={1,2,3,4}, so A⊆B •If C={1,2,3,4}, then C⊆B, also C = B."
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "A set A is considered a subset of set B",
+          "If C={a,b,c,d,e}, it is NOT a proper subset of B."
+        ],
+        "text": "Proper Subset If A is a subset of B, and A is not equal to B (meaning some element in B is not in A), then A is called a proper subset of B. The notation used for a proper subset is A⊂B.This is analogous to the relation “less”.Examples:•If A={a,b} and B={a,b,c,d,e}, then A⊂B because A is a subset of B, and there exist the elements in B (which are c, d, e) that are not in A. If C={a,b,c,d,e}, it is NOT a proper subset of B.•Remember, by this definition, every set is considered a subset of itself (A⊆A) since all elements of A are indeed in A. However, a set is not a proper subset of itself.",
+        "formula": "A ⊆ B",
+        "example": "A={1,2}, B={1,2,3}, so A⊆B"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "A set A is considered a subset of set B"
+        ],
+        "text": "Set Builder Notation Examples Example 1: A subset should contain numbers from the set A={2,4,6,8,10} that are divisible by 4Set Builder Notation:{x | x∈A;x mod4=0}; Result: {4,8}Example 2: A subset should contain objects from the set {a,b,c,d,e} that come before 'd' alphabetically:Description: The set of alphabets from the given subset that come before the letter 'd' alphabetically.Set Builder Notation: {x | x∈{a,b,c,d,e}andx<d}; Result: {a,b,c}Example 3. A subset should contain numbers from the set {1,2,3,4,5} that are greater than 3:Description: The set of numbers greater than 3 from the given set.Set Builder Notation: {x | x∈{1,2,3,4,5}; x>3}; Result: {4,5}",
+        "formula": "",
+        "example": "A={1,2}, B={1,2,3}, so A⊆B"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Difference Examples Given A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={} (Empty set) •A∖B={1,2} (Elements in A that are not in B)• A∖D={1,2,3,4} (Difference with an empty set results in the original set)•C∖B={7,8}",
+        "formula": "A ⊆ B",
+        "example": "A={1,2}, B={1,2,3}, so A⊆B"
+      }
+    ],
+    "Proper Subset": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "A set A is considered a subset of set B",
+          "If C={a,b,c,d,e}, it is NOT a proper subset of B."
+        ],
+        "text": "Proper Subset If A is a subset of B, and A is not equal to B (meaning some element in B is not in A), then A is called a proper subset of B. The notation used for a proper subset is A⊂B.This is analogous to the relation “less”.Examples:•If A={a,b} and B={a,b,c,d,e}, then A⊂B because A is a subset of B, and there exist the elements in B (which are c, d, e) that are not in A. If C={a,b,c,d,e}, it is NOT a proper subset of B.•Remember, by this definition, every set is considered a subset of itself (A⊆A) since all elements of A are indeed in A. However, a set is not a proper subset of itself.",
+        "formula": "A⊂B",
+        "example": "•If A={a,b} and B={a,b,c,d,e}, then A⊂B because A is a subset of B, and there exist the elements in B (which are c, d, e) that are not in A."
+      }
+    ],
+    "Set Builder Notation": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "Set builder notation is a shorthand way to describe a set by indicating the properties that its members must satisfy."
+        ],
+        "text": "Set Builder Notation Set builder notation is a shorthand way to describe a set by indicating the properties that its members must satisfy. The general format for set builder notation: {variable | propertyorcondition; propertyorcondition 2, …}The variable is a placeholder that represents the elements of the set.The property or condition specifies the criteria elements must satisfy to be included in the set.The vertical bar (or colon) can be read as \"such that\".",
+        "formula": "",
+        "example": "{variable | propertyorcondition; propertyorcondition 2, …}"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [
+          "A set A is considered a subset of set B"
+        ],
+        "text": "Set Builder Notation Examples Example 1: A subset should contain numbers from the set A={2,4,6,8,10} that are divisible by 4Set Builder Notation:{x | x∈A;x mod4=0}; Result: {4,8}Example 2: A subset should contain objects from the set {a,b,c,d,e} that come before 'd' alphabetically:Description: The set of alphabets from the given subset that come before the letter 'd' alphabetically.Set Builder Notation: {x | x∈{a,b,c,d,e}andx<d}; Result: {a,b,c}Example 3. A subset should contain numbers from the set {1,2,3,4,5} that are greater than 3:Description: The set of numbers greater than 3 from the given set.Set Builder Notation: {x | x∈{1,2,3,4,5}; x>3}; Result: {4,5}",
+        "formula": "{x | x∈A;x mod4=0}; {x | x∈{a,b,c,d,e}andx<d}; {x | x∈{1,2,3,4,5}; x>3}",
+        "example": "Example 1: A subset should contain numbers from the set A={2,4,6,8,10} that are divisible by 4; Example 2: A subset should contain objects from the set {a,b,c,d,e} that come before 'd' alphabetically; Example 3. A subset should contain numbers from the set {1,2,3,4,5} that are greater than 3"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "ACTIVITY 2: Set Builder Notation with Tuples Consider two sets: A={1,2,3} and B={a,b}1. Define the set S using set builder notation that represents all possible ordered pairs, called tuples, (x,y) where x belongs to set A and y belongs to set B.2. Define a set T using set builder notation, which consists of ordered pairs from S such that the first element of the tuple is greater than 2.",
+        "formula": "",
+        "example": "S={(x,y) where x belongs to set A and y belongs to set B}"
+      }
+    ],
+    "Tuple": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "ACTIVITY 2: Set Builder Notation with Tuples Consider two sets: A={1,2,3} and B={a,b}1. Define the set S using set builder notation that represents all possible ordered pairs, called tuples, (x,y) where x belongs to set A and y belongs to set B.2. Define a set T using set builder notation, which consists of ordered pairs from S such that the first element of the tuple is greater than 2.",
+        "formula": "",
+        "example": "A={1,2,3}, B={a,b} (x,y) where x belongs to set A and y belongs to set B."
+      }
+    ],
+    "Ordered Pair": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "ACTIVITY 2: Set Builder Notation with Tuples Consider two sets: A={1,2,3} and B={a,b}1. Define the set S using set builder notation that represents all possible ordered pairs, called tuples, (x,y) where x belongs to set A and y belongs to set B.2. Define a set T using set builder notation, which consists of ordered pairs from S such that the first element of the tuple is greater than 2.",
+        "formula": "",
+        "example": "(x,y) where x belongs to set A and y belongs to set B."
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Cartesian Product The Cartesian product of two sets is the set of all ordered pairs where the first element in each pair is from the first set, and the second element is from the second set. The Cartesian product of sets A and B is denoted as A×B.Example:A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}Order Matters! The order of sets in a Cartesian product is significant. A×B is not necessarily the same as B×A. For instance, using the sets from the above example, B×A={(a,1),(a,2),(b,1),(b,2)}, which is different from A×B.",
+        "formula": "",
+        "example": "A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}"
+      }
+    ],
+    "Union": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Set Operations: Union A∪BCreate a new set by combining all of the elements of two sets All elements that are in A or in B. Venn Diagram",
+        "formula": "A∪B",
+        "example": "Venn Diagram"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Union Examples Given*A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={} (Empty set) *See the diagram on the next slide A∪B={1,2,3,4,5,6}A∪D={1,2,3,4} (union with an empty set results in the non-empty set)B∪C={3,4,5,6,7,8}",
+        "formula": "A∪B={1,2,3,4,5,6}",
+        "example": "*A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={} (Empty set) *See the diagram on the next slide A∪B={1,2,3,4,5,6}A∪D={1,2,3,4} (union with an empty set results in the non-empty set)B∪C={3,4,5,6,7,8}"
+      }
+    ],
+    "Intersection": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Set Operations: Intersection A∩BCreate a new set (C), using the elements the two sets have in common.All elements that are both in A and in B.",
+        "formula": "A∩B",
+        "example": "Create a new set (C), using the elements the two sets have in common.All elements that are both in A and in B."
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Intersection Examples Given A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={}(Empty set) A∩B={3,4}A∩D={}(intersection with an empty set results in the empty set)B∩C={6}",
+        "formula": "A ∩ B = {x | x ∈ A ∧ x ∈ B}",
+        "example": "A={1,2,3,4},B={3,4,5,6},C={6,7,8},D={}, so A∩B={3,4} and A∩D={} (intersection with an empty set results in the empty set) and B∩C={6}"
+      }
+    ],
+    "Difference": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Set Operations: Difference A∖BCreate a new set (C) by taking all of the elements of the first set (A) and removing from it all of the elements in the second set (B)All elements in A but not in B",
+        "formula": "A∖B",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Difference Examples Given A={1,2,3,4}B={3,4,5,6}C={6,7,8}D={} (Empty set) •A∖B={1,2} (Elements in A that are not in B)• A∖D={1,2,3,4} (Difference with an empty set results in the original set)•C∖B={7,8}",
+        "formula": "A ∖ B",
+        "example": "A={1,2,3,4}, B={3,4,5,6}, C={6,7,8}, D={} (Empty set) • A∖B={1,2} (Elements in A that are not in B)• A∖D={1,2,3,4} (Difference with an empty set results in the original set)•C∖B={7,8}"
+      }
+    ],
+    "Complement": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Set Operations: Complementation A′ or Ac All elements not in A, with respect to a universal set U (S). A’",
+        "formula": "A′ or Ac",
+        "example": ""
+      }
+    ],
+    "Commutative Laws": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "A∪B=B∪A, A∩B=B∩A",
+        "example": ""
+      }
+    ],
+    "Associative Laws": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "A∪(B∪C)=(A∪B)∪C, A∩(B∩C)=(A∩B)∩C",
+        "example": ""
+      }
+    ],
+    "Distributive Laws": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "A∩(B∪C)=(A∩B)∪(A∩C), A∪(B∩C)=(A∪B)∩(A∪C)",
+        "example": ""
+      }
+    ],
+    "Identity Laws": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "A∪∅=A, A∩U=A",
+        "example": ""
+      }
+    ],
+    "Complement Laws": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "A∪A′=U, A∩A′=∅",
+        "example": ""
+      }
+    ],
+    "Idempotent Laws": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "A∪A=A, A∩A=A",
+        "example": ""
+      }
+    ],
+    "Double Negation Law": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "(A′)′=A, AA′=∅",
+        "example": ""
+      }
+    ],
+    "Absorption Laws": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Fundamental Laws of Set Algebra Commutative Laws:Union: A∪B=B∪A Intersection: A∩B=B∩AAssociative Laws:Union: A∪(B∪C)=(A∪B)∪C Intersection: A∩(B∩C)=(A∩B)∩CDistributive Laws:Over Union: A∩(B∪C)=(A∩B)∪(A∩C) Over Intersection: A∪(B∩C)=(A∪B)∩(A∪C)Identity Laws:Union: A∪∅=A Intersection: A∩U=A (where U is the universal set) Complement Laws:A∪A′=U (where A′ is the complement of A and U is the universal set) A∩A′=∅Idempotent Laws:Union: A∪A=A Intersection: A∩A=ADouble Negation Law:(A′)′=AAbsorption Laws:A∪(A∩B)=AA∩(A∪B)=A",
+        "formula": "A∪(A∩B)=A, A∩(A∪B)=A",
+        "example": ""
+      }
+    ],
+    "Power Set": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Power Set The power set of a set is the set of all possible subsets of that set, including the empty set and the set itself. If S is a set, the power set of S is usually denoted as P(S) or 2S.Example:For the set S={a,b}, the power set P(S) is: P(S)={∅,{a},{b},{a,b}} Cardinality of Power Set: The number of elements in the power set of S is 2n, where n is the number of elements in S. For example, |P(S)|=22=4",
+        "formula": "P(S) or 2S",
+        "example": "For the set S={a,b}, the power set P(S) is: P(S)={∅,{a},{b},{a,b}}"
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Example: Power Set S={p,q,r,s}The power set P(S) is the set of all possible subsets of S, including the empty set and S itself.P(S)={∅,{p},{q},{r},{s},{p,q},{p,r},{p,s},{q,r},{q,s},{r,s},{p,q,r}, {p,q,s},{p,r,s},{q,r,s},{p,q,r,s}} There are a total of 24=16 subsets in the power set P(S)",
+        "formula": "P(S)={∅,{p},{q},{r},{s},{p,q},{p,r},{p,s},{q,r},{q,s},{r,s},{p,q,r}, {p,q,s},{p,r,s},{q,r,s},{p,q,r,s}}",
+        "example": "S={p,q,r,s}The power set P(S) is the set of all possible subsets of S, including the empty set and S itself."
+      }
+    ],
+    "Cartesian Product Of Sets": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Cartesian Product The Cartesian product of two sets is the set of all ordered pairs where the first element in each pair is from the first set, and the second element is from the second set. The Cartesian product of sets A and B is denoted as A×B.Example:A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}Order Matters! The order of sets in a Cartesian product is significant. A×B is not necessarily the same as B×A. For instance, using the sets from the above example, B×A={(a,1),(a,2),(b,1),(b,2)}, which is different from A×B.",
+        "formula": "A×B",
+        "example": "A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}"
+      }
+    ],
+    "Interval": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "",
+        "example": ""
+      },
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Examples of Interval Tasks Task 1. Determine if the provided number belongs to the given interval, which contains integers only:1. Interval: (2,5) Number: 3.7512. Interval: [1,4) Number: 13. Interval: (5,8] Number: 54. Interval: [−2,2] Number: 05. Set:{-2, 2} Number: 0Answer: 1. Yes; 2. Yes; 3. No; 4. Yes; 5. No Task 2. For each set described by the given set builder notation, identify the corresponding interval:A={x | −2<x<4}; B={x | 1≤x<5}; C={x | x≤0}Answer: A=(−2,4); B=[1,5); C=(−∞,0]",
+        "formula": "",
+        "example": "Interval: (2,5) Number: 3.7512. Interval: [1,4) Number: 13. Interval: (5,8] Number: 54. Interval: [−2,2] Number: 05. Set:{-2, 2} Number: 0"
+      }
+    ],
+    "Open Interval": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "(a,b)",
+        "example": ""
+      }
+    ],
+    "Closed Interval": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "[a,b]",
+        "example": ""
+      }
+    ],
+    "Half-open Interval (left)": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "(a,b]",
+        "example": ""
+      }
+    ],
+    "Half-open Interval (right)": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "[a,b)",
+        "example": ""
+      }
+    ],
+    "Infinite Interval (right)": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "(a,∞)",
+        "example": ""
+      }
+    ],
+    "Infinite Interval (left)": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "(-∞,a)",
+        "example": ""
+      }
+    ],
+    "Closed Infinite (right)": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "[a,∞)",
+        "example": ""
+      }
+    ],
+    "Closed Infinite (left)": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "What are Intervals?Intervals are a subset of the real number line, usually referring to all numbers between two endpoints. The nature of the inclusion of these endpoints defines different types of intervals.Interval Type Definition Description Open Interval(a,b)Contains all numbers between a and b but not including a and b.Closed Interval[a,b]Contains all numbers between a and b including a and b.Half-Open Interval (Left)(a,b]Contains all numbers between a and b, including b but excluding a.Half-Open Interval (Right)[a,b)Contains all numbers between a and b, including a but excluding b.Infinite Interval (Right)(a,∞)Contains all numbers greater than a.Infinite Interval (Left)(−∞,a)Contains all numbers less than a.Closed Infinite (Right)[a,∞)Contains all numbers greater than or equal to a.Closed Infinite (Left)(−∞,a]Contains all numbers less than or equal to a.",
+        "formula": "(-∞,a]",
+        "example": ""
+      }
+    ],
+    "Attribute Sets": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Sets vs Intervals Attribute Sets Intervals Definition A collection of distinct objects.A continuous section of the number line.Notation Listed elements, e.g., {1,2,3}Bracketed endpoints, e.g., [a,b] Elements Can be discrete or continuous.Always continuous (on the real number line).Examples{2,4,6}(2,5)Inclusivity Explicitly includes each listed element.Defined by the type of interval (open, closed, half-open)Representation Can represent numbers, characters, etc.Represents a range of numbers.",
+        "formula": "",
+        "example": ""
+      }
+    ],
+    "Intervals": [
+      {
+        "source_file": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "week": "2",
+        "quote": [],
+        "text": "Sets vs Intervals Attribute Sets Intervals Definition A collection of distinct objects.A continuous section of the number line.Notation Listed elements, e.g., {1,2,3}Bracketed endpoints, e.g., [a,b] Elements Can be discrete or continuous.Always continuous (on the real number line).Examples{2,4,6}(2,5)Inclusivity Explicitly includes each listed element.Defined by the type of interval (open, closed, half-open)Representation Can represent numbers, characters, etc.Represents a range of numbers.",
+        "formula": "",
+        "example": "(2,5)"
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+Where can I find information regarding tuples? Are there lecture slides that explain them?
+Please explain the Fibonacci Sequence.
+Recommend practice questions for this module.
+How does number theory relate to computing?
+Why is maths for computing essential for programming?
+

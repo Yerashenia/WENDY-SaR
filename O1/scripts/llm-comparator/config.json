@@ -1,0 +1,27 @@
+{
+  "models": {
+    "chatgpt": {
+      "enabled": false,
+      "model": "gpt-5-mini"
+    },
+
+    "claude": {
+      "enabled": false,
+      "model": "claude-3-5-sonnet-latest"
+    },
+
+    "gemini": {
+      "enabled": false,
+      "model": "gemini-2.5-flash"
+    },
+
+    "llama": {
+      "enabled": true,
+      "model": "llama3"
+    }
+  },
+
+  "output": {
+    "csv_file": "outputs/results.csv"
+  }
+}

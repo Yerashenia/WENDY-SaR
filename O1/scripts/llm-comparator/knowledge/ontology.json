@@ -1,0 +1,2324 @@
+{
+  "nodes": [
+    {
+      "label": "Module",
+      "name": "Mathematics For Computing",
+      "properties": {
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Week",
+      "name": "Week 1",
+      "properties": {
+        "weekNumber": 1,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Computer Science",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Roles Of Mathematics In Computer Science",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Maths For Computing",
+      "properties": {
+        "confidence": 0.993,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Logical Reasoning",
+      "properties": {
+        "application": "essential for writing efficient algorithms and code",
+        "confidence": 0.9,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Algorithms",
+      "properties": {
+        "description": "Many algorithms are based on mathematical principles and formulas",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Data Structures",
+      "properties": {
+        "description": "Concepts like sets, graphs, and trees, foundational in maths, are vital in creating efficient data structures",
+        "confidence": 0.9,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Machine Learning/Ai",
+      "properties": {
+        "description": "Requires understanding of statistics, probability, linear algebra, and calculus",
+        "confidence": 0.9,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Computer Graphics",
+      "properties": {
+        "description": "Geometry and trigonometry are fundamental for rendering images and animations",
+        "confidence": 0.9,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Cryptography & Security",
+      "properties": {
+        "description": "Number theory and modular arithmetic form the basis of cryptographic algorithms",
+        "confidence": 0.9,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Efficiency And Optimisation",
+      "properties": {
+        "description": "Maths helps analyse and improve code efficiency through big O notation and other methods",
+        "application": "through big O notation and other methods",
+        "confidence": 0.9,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Theory",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Logic",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Set Theory",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Combinatorics",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Graph Theory",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Number Theory",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Number Systems",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Decimal Number System",
+      "properties": {
+        "formula": "base-10",
+        "example": "Each position in a decimal number has a place value based on powers of 10, making it intuitive for everyday use.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Binary Number System",
+      "properties": {
+        "example": "•14 in binary:11102 •245 in binary:111101012 •34567 in binary:10000111000011112",
+        "application": "All data in a computer is stored in binary, whether it's text, images, or numbers.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Decimal To Binary Conversion",
+      "properties": {
+        "example": "Convert19 to binary.Divide by 2and keep track of the remainders:1.19 ÷ 2 = 9 remainder12.9 ÷ 2 = 4 remainder13.4 ÷ 2 = 2 remainder04.2 ÷ 2 = 1 remainder05.1 ÷ 2 = 0 remainder1Result: Reading the remainders from bottom to top. 19 in decimalis10011 in binary.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Binary To Decimal Conversion",
+      "properties": {
+        "example": "Convert10011back to decimal.Start from the rightmost bit and multiply each bit by powers of 2, based on its position:1.1 × 24 = 16 2.0 × 23 = 0 3.0 × 22 = 0 4.1 × 21 = 2 5.1 × 20 = 1Result: Add them together.16 + 0 + 0 + 2 + 1 =19",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Number Types",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Real Numbers",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "example": "3.14, -0.01, √2",
+        "application": "float, double (floating-point), computers can only approximate real numbers due to finite memory"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Rational Numbers",
+      "properties": {
+        "description": "can be expressed as the quotient or fraction of two integers",
+        "example": "½, ¾, -1,457",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "application": "fractions, Fraction(Python), custom class, or two points (numerator/denominator)"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Irrational Numbers",
+      "properties": {
+        "description": "cannot be expressed as the quotient or fraction of two integers",
+        "example": "√3, etc.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Integers",
+      "properties": {
+        "description": "...,-3,-2,-1,0,1,2,3,…",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "example": "-2, -1, 0, 1, 2",
+        "application": "int(integer), fixed-size formats (e.g. 32-bit, 64-bit)"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Whole Numbers",
+      "properties": {
+        "description": "0,1,2,3,...",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Natural Numbers",
+      "properties": {
+        "description": "1,2,3,4,5,…",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf",
+        "example": "0, 1, 2, 3…",
+        "application": "int(integer)"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Complex Numbers",
+      "properties": {
+        "example": "2 + 3i",
+        "application": "complex, Complex class (Java, C#), not always built-in but available in some languages",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Number Theory",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Prime Numbers",
+      "properties": {
+        "example": "5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Composite Numbers",
+      "properties": {
+        "example": "5 is prime because it can only be divided by 1 and 5, but 4 is composite because it can be divided by 1, 2, and 4.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Factorisation",
+      "properties": {
+        "formula": "n = p1 × p2 × ... × pn",
+        "example": "84=2×42=2×(2×21)=2×2×(3×7)=22×3×7",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Division Theorem",
+      "properties": {
+        "example": "a=17,b=3, we can findq=5 andr=2 so that 17 = 3*5+2",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Modular Arithmetic",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Congruent Numbers",
+      "properties": {
+        "formula": "A ≡ B (mod n)",
+        "example": "14 ≡ 4 (mod 5), 23 ≡ 2 (mod 7)",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Clock Arithmetic",
+      "properties": {
+        "example": "8 hrs +10 hrs =What time is it?8 hrs +22 hrs=???22 hrs= 10hrs+12hrs",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Modulo Operation",
+      "properties": {
+        "example": "7 mod 2=1, -5 mod 3 =1, 8 mod 4 = 0",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Modular Arithmetic",
+      "properties": {
+        "description": "Used in encryption algorithms (e.g., RSA, Diffie-Hellman) to secure communications.; Modular arithmetic is used in hash algorithms to distribute data evenly in hash tables.; Algorithms like CRC (Cyclic Redundancy Check) use modular arithmetic to detect errors in data transmission.",
+        "application": "Used in encryption algorithms (e.g., RSA, Diffie-Hellman) to secure communications.; Modular arithmetic is used in hash algorithms to distribute data evenly in hash tables.; Algorithms like CRC (Cyclic Redundancy Check) use modular arithmetic to detect errors in data transmission.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Cryptography",
+      "properties": {
+        "confidence": 0.788,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Caesar Cipher",
+      "properties": {
+        "formula": "C≡P+k mod 26",
+        "example": "U=20, P=15, Y=24, Q=16",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Sequences",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Sequence",
+      "properties": {
+        "description": "An ordered list of elements, arranged according to a certain rule or pattern.",
+        "example": "(2,4,6,8,10,12) – sequence of even numbers (1,3,5,7,9,11) – sequence of odd numbers",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Arithmetic Sequence",
+      "properties": {
+        "description": "A sequence of numbers in which the difference between consecutive terms is constant.",
+        "formula": "an=a+(n−1)d",
+        "example": "2, 5, 8, 11, …, where d is 3.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Geometric Sequence",
+      "properties": {
+        "description": "A sequence of numbers where each term after the first is found by multiplying the previous term by a fixed, non-zero number called the 'common ratio,' denoted by r.",
+        "formula": "an=a⋅r(n−1)",
+        "example": "In the sequence 3, 6, 12, 24, … the common ratio r is 2.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Fibonacci Sequence",
+      "properties": {
+        "description": "A series of numbers in which each is the sum of the two preceding ones, usually starting with 0 and 1.",
+        "formula": "F(n)=F(n−1)+F(n−2), with initial conditions: F(0)=0, F(1)=10,1,1,2,3,5,8,13,21,34…",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Golden Ratio",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Golden (devine) Ratio",
+      "properties": {
+        "formula": "𝜑 ≈1.618033988749895.",
+        "application": "This ratio appears in various aspects of art, architecture, and nature.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture1.pdf"
+      }
+    },
+    {
+      "label": "Week",
+      "name": "Week 2",
+      "properties": {
+        "weekNumber": 2,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Set Theory",
+      "properties": {
+        "confidence": 0.865,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Set",
+      "properties": {
+        "description": "collections of distinct elements",
+        "example": "{a,b,c} {☼, 5, ♣} {1, 2, 3, 5, 7}",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Property Sets",
+      "properties": {
+        "description": "A collection of distinct objects.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Membership",
+      "properties": {
+        "description": "An element either belongs or does not belong.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Empty Set",
+      "properties": {
+        "description": "A set with no elements.",
+        "formula": "∅ or {}",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Cardinality",
+      "properties": {
+        "description": "The number of elements in a set.",
+        "formula": "|A| for a set A",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Equal Sets",
+      "properties": {
+        "description": "A set A is equivalent to a set B if the following conditions hold: every element of A is an element of B, and every element of B is an element of A.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Subset",
+      "properties": {
+        "description": "A set A is considered a subset of set B if every element of set A is also an element of set B.",
+        "formula": "A ⊆ B",
+        "example": "A={1,2}, B={1,2,3,4}, so A⊆B •If C={1,2,3,4}, then C⊆B, also C = B.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Proper Subset",
+      "properties": {
+        "description": "If A is a subset of B, and A is not equal to B (meaning some element in B is not in A), then A is called a proper subset of B.",
+        "formula": "A⊂B",
+        "example": "•If A={a,b} and B={a,b,c,d,e}, then A⊂B because A is a subset of B, and there exist the elements in B (which are c, d, e) that are not in A.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Set Builder Notation",
+      "properties": {
+        "description": "a shorthand way to describe a set by indicating the properties that its members must satisfy.",
+        "example": "{variable | propertyorcondition; propertyorcondition 2, …}",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "formula": "{x | x∈A;x mod4=0}; {x | x∈{a,b,c,d,e}andx<d}; {x | x∈{1,2,3,4,5}; x>3}"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Tuple",
+      "properties": {
+        "example": "A={1,2,3}, B={a,b} (x,y) where x belongs to set A and y belongs to set B.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Ordered Pair",
+      "properties": {
+        "example": "(x,y) where x belongs to set A and y belongs to set B.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Set Operations",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Union",
+      "properties": {
+        "formula": "A∪B",
+        "example": "Venn Diagram",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Intersection",
+      "properties": {
+        "formula": "A∩B",
+        "example": "Create a new set (C), using the elements the two sets have in common.All elements that are both in A and in B.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Difference",
+      "properties": {
+        "description": "Create a new set (C) by taking all of the elements of the first set (A) and removing from it all of the elements in the second set (B)",
+        "formula": "A∖B",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "example": "A={1,2,3,4}, B={3,4,5,6}, C={6,7,8}, D={} (Empty set) • A∖B={1,2} (Elements in A that are not in B)• A∖D={1,2,3,4} (Difference with an empty set results in the original set)•C∖B={7,8}"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Complement",
+      "properties": {
+        "formula": "A′ or Ac",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Set Algebra",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Commutative Laws",
+      "properties": {
+        "formula": "A∪B=B∪A, A∩B=B∩A",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Associative Laws",
+      "properties": {
+        "formula": "A∪(B∪C)=(A∪B)∪C, A∩(B∩C)=(A∩B)∩C",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Distributive Laws",
+      "properties": {
+        "formula": "A∩(B∪C)=(A∩B)∪(A∩C), A∪(B∩C)=(A∪B)∩(A∪C)",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Identity Laws",
+      "properties": {
+        "formula": "A∪∅=A, A∩U=A",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Complement Laws",
+      "properties": {
+        "formula": "A∪A′=U, A∩A′=∅",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Idempotent Laws",
+      "properties": {
+        "formula": "A∪A=A, A∩A=A",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Double Negation Law",
+      "properties": {
+        "formula": "(A′)′=A, AA′=∅",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Absorption Laws",
+      "properties": {
+        "formula": "A∪(A∩B)=A, A∩(A∪B)=A",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Power Set",
+      "properties": {
+        "description": "The set of all possible subsets of that set, including the empty set and the set itself.",
+        "formula": "P(S) or 2S",
+        "example": "For the set S={a,b}, the power set P(S) is: P(S)={∅,{a},{b},{a,b}}",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Cartesian Product Of Sets",
+      "properties": {
+        "description": "The set of all ordered pairs where the first element in each pair is from the first set, and the second element is from the second set.",
+        "formula": "A×B",
+        "example": "A={1,2} and B={a,b}; A×B={(1,a),(1,b),(2,a),(2,b)}",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Topic",
+      "name": "Intervals",
+      "properties": {
+        "confidence": 0.988,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Interval",
+      "properties": {
+        "description": "A subset of the real number line, usually referring to all numbers between two endpoints.",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf",
+        "example": "Interval: (2,5) Number: 3.7512. Interval: [1,4) Number: 13. Interval: (5,8] Number: 54. Interval: [−2,2] Number: 05. Set:{-2, 2} Number: 0"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Open Interval",
+      "properties": {
+        "description": "Contains all numbers between a and b but not including a and b.",
+        "formula": "(a,b)",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Closed Interval",
+      "properties": {
+        "description": "Contains all numbers between a and b including a and b.",
+        "formula": "[a,b]",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Half-open Interval (left)",
+      "properties": {
+        "description": "Contains all numbers between a and b, including b but excluding a.",
+        "formula": "(a,b]",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Half-open Interval (right)",
+      "properties": {
+        "description": "Contains all numbers between a and b, including a but excluding b.",
+        "formula": "[a,b)",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Infinite Interval (right)",
+      "properties": {
+        "description": "Contains all numbers greater than a.",
+        "formula": "(a,∞)",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Infinite Interval (left)",
+      "properties": {
+        "description": "Contains all numbers less than a.",
+        "formula": "(-∞,a)",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Closed Infinite (right)",
+      "properties": {
+        "description": "Contains all numbers greater than or equal to a.",
+        "formula": "[a,∞)",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Closed Infinite (left)",
+      "properties": {
+        "description": "Contains all numbers less than or equal to a.",
+        "formula": "(-∞,a]",
+        "confidence": 0.85,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Attribute Sets",
+      "properties": {
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    },
+    {
+      "label": "Concept",
+      "name": "Intervals",
+      "properties": {
+        "description": "A continuous section of the number line.",
+        "example": "(2,5)",
+        "confidence": 0.95,
+        "sourceFile": "C:\\Users\\olive\\Desktop\\WENDY-SaR-main\\O2\\data\\pdfs\\MathsComp_Lecture2.pdf"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "source": {
+        "label": "Module",
+        "name": "Mathematics For Computing"
+      },
+      "type": "HAS_WEEK",
+      "target": {
+        "label": "Week",
+        "name": "Week 1"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Computer Science"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Computer Science"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Roles Of Mathematics In Computer Science"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Logical Reasoning"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Algorithms"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Data Structures"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Machine Learning/Ai"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Computer Graphics"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Cryptography & Security"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Maths For Computing"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Efficiency And Optimisation"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Theory"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Logic"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Set Theory"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Combinatorics"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Graph Theory"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Number Theory"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Algorithms"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Number Systems"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Systems"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Decimal Number System"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Systems"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Binary Number System"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Systems"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Decimal To Binary Conversion"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Systems"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Binary To Decimal Conversion"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Number Types"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Types"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Real Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Types"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Rational Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Types"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Irrational Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Types"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Integers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Types"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Whole Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Types"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Natural Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Rational Numbers"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Real Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Irrational Numbers"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Real Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Types"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Complex Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Natural Numbers"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Integers"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Integers"
+      },
+      "type": "BUILDS_ON",
+      "target": {
+        "label": "Concept",
+        "name": "Natural Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Number Theory"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Prime Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Composite Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Prime Numbers"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Composite Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Integers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Factorisation"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Division Theorem"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Modular Arithmetic"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Modular Arithmetic"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Congruent Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Modular Arithmetic"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Clock Arithmetic"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Modular Arithmetic"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Modulo Operation"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Modular Arithmetic"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Modular Arithmetic"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Cryptography"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Cryptography"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Caesar Cipher"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Binary Number System"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Modular Arithmetic"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Binary Number System"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Modular Arithmetic"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Sequences"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Sequences"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Sequence"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Sequences"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Arithmetic Sequence"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Sequences"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Geometric Sequence"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Sequences"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Fibonacci Sequence"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 1"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Golden Ratio"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Golden Ratio"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Golden (devine) Ratio"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Fibonacci Sequence"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Golden (devine) Ratio"
+      }
+    },
+    {
+      "source": {
+        "label": "Module",
+        "name": "Mathematics For Computing"
+      },
+      "type": "HAS_WEEK",
+      "target": {
+        "label": "Week",
+        "name": "Week 2"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 2"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Set Theory"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Set"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 2"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Sequences"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Sequences"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Property Sets"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Sequences"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Membership"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Sequence"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Property Sets"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 2"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Number Theory"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Natural Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Rational Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Number Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Real Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Integers"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Rational Numbers"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Empty Set"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Cardinality"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Cardinality"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Empty Set"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Equal Sets"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Subset"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Proper Subset"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Proper Subset"
+      },
+      "type": "BUILDS_ON",
+      "target": {
+        "label": "Concept",
+        "name": "Subset"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Set Builder Notation"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Set Builder Notation"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Subset"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Tuple"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Ordered Pair"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Set Builder Notation"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Tuple"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Ordered Pair"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Tuple"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 2"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Set Operations"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Operations"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Union"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Union"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Operations"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Intersection"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Intersection"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Operations"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Difference"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Difference"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Difference"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Subset"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Operations"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Complement"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 2"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Commutative Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Associative Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Distributive Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Identity Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Complement Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Idempotent Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Double Negation Law"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Algebra"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Absorption Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Commutative Laws"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Associative Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Associative Laws"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Distributive Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Distributive Laws"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Identity Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Identity Laws"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Complement Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Complement Laws"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Idempotent Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Idempotent Laws"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Absorption Laws"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Power Set"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Set Theory"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Cartesian Product Of Sets"
+      }
+    },
+    {
+      "source": {
+        "label": "Week",
+        "name": "Week 2"
+      },
+      "type": "COVERS",
+      "target": {
+        "label": "Topic",
+        "name": "Intervals"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Open Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Closed Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Half-open Interval (left)"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Half-open Interval (right)"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Infinite Interval (right)"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Infinite Interval (left)"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Closed Infinite (right)"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Closed Infinite (left)"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Open Interval"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Closed Interval"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Half-open Interval (left)"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Half-open Interval (right)"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Infinite Interval (right)"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Infinite Interval (left)"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Closed Infinite (right)"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Closed Infinite (left)"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Interval"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Set"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Interval"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Set"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Attribute Sets"
+      }
+    },
+    {
+      "source": {
+        "label": "Topic",
+        "name": "Intervals"
+      },
+      "type": "HAS_CONCEPT",
+      "target": {
+        "label": "Concept",
+        "name": "Intervals"
+      }
+    },
+    {
+      "source": {
+        "label": "Concept",
+        "name": "Intervals"
+      },
+      "type": "RELATED_TO",
+      "target": {
+        "label": "Concept",
+        "name": "Attribute Sets"
+      }
+    }
+  ]
+}

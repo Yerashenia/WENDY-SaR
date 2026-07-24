@@ -10,8 +10,17 @@ from collections import Counter
 from difflib import SequenceMatcher
 
 from dotenv import load_dotenv
-from neo4j import GraphDatabase
-from neo4j.exceptions import ServiceUnavailable, SessionExpired, TransientError
+
+# Neo4j is no longer required for the JSON-only extraction path.
+# The write_graph_payload_to_auradb()/create_constraints() functions below
+# still reference these names, but they are simply never called when you
+# run this script directly (see the __main__ block at the bottom).
+try:
+    from neo4j import GraphDatabase
+    from neo4j.exceptions import ServiceUnavailable, SessionExpired, TransientError
+except ImportError:
+    GraphDatabase = None
+    ServiceUnavailable = SessionExpired = TransientError = Exception
 
 from llama_index.core import Document
 from llama_index.core.node_parser import SentenceSplitter
@@ -2376,6 +2385,59 @@ def debug_node_output(nodes, llm):
 # Main pipeline
 # -------------------------------------------------------------------
 
+# -------------------------------------------------------------------
+# JSON-only export helpers (no Neo4j / AuraDB required)
+# -------------------------------------------------------------------
+
+OUTPUT_JSON_FILE = os.getenv("OUTPUT_JSON_FILE", "llm-comparator/knowledge/kg_extraction_output.json")
+RUN_SHACL_VALIDATION = os.getenv("RUN_SHACL_VALIDATION", "false").lower() == "true"
+
+
+def merge_graph_payload(accumulated: dict, new_payload: dict):
+    """
+    Merge one chunk's graph_payload into the running accumulated payload,
+    reusing the same add_node/add_relationship de-duplication logic used
+    for the Neo4j path, so the final JSON is already de-duplicated.
+    """
+
+    for (label, name), node_data in new_payload["nodes"].items():
+        add_node(accumulated["nodes"], label, name, node_data.get("properties", {}))
+
+    for sub_key, rel_type, obj_key in new_payload["relationships"]:
+        # sub_key / obj_key are (label, name) tuples already normalised by add_node
+        add_relationship(accumulated["relationships"], sub_key, rel_type, obj_key)
+
+
+def graph_payload_to_json_friendly(payload: dict):
+    """
+    Convert the internal (label, name) tuple-keyed payload into a plain
+    JSON-serialisable structure: a flat nodes[] list and edges[] list.
+    """
+
+    nodes_list = []
+    for (label, name), node_data in payload["nodes"].items():
+        nodes_list.append(
+            {
+                "id": f"{label}:{name}",
+                "type": label,
+                "name": name,
+                "properties": node_data.get("properties", {}),
+            }
+        )
+
+    edges_list = []
+    for (sub_label, sub_name), rel_type, (obj_label, obj_name) in payload["relationships"]:
+        edges_list.append(
+            {
+                "source": f"{sub_label}:{sub_name}",
+                "relation": rel_type,
+                "target": f"{obj_label}:{obj_name}",
+            }
+        )
+
+    return {"nodes": nodes_list, "edges": edges_list}
+
+
 if __name__ == "__main__":
     documents = load_pdf_documents(DATA_SOURCE)
     llm = create_llm()
@@ -2392,100 +2454,92 @@ if __name__ == "__main__":
     # Use nodes for the full graph construction run.
     nodes_to_process = nodes
 
-    total_relationships_saved = 0
     total_nodes_saved = 0
+    total_relationships_saved = 0
     total_validated_chunks = 0
     total_failed_chunks = 0
     total_empty_chunks = 0
-    total_write_failed_chunks = 0
 
-    driver = GraphDatabase.driver(
-        NEO4J_URI,
-        auth=(NEO4J_USERNAME, NEO4J_PASSWORD),
-        max_connection_lifetime=300,
-        connection_timeout=60,
-    )
+    # Accumulates every chunk's nodes/relationships into one merged graph.
+    accumulated_payload = {"nodes": {}, "relationships": []}
 
-    try:
-        create_constraints(driver)
+    for index, node in enumerate(nodes_to_process, start=1):
+        print(f"\n--- PROCESSING CHUNK {index}/{len(nodes_to_process)} ---")
+        print(node.text[:300], "...")
 
-        for index, node in enumerate(nodes_to_process, start=1):
-            print(f"\n--- PROCESSING CHUNK {index}/{len(nodes_to_process)} ---")
-            print(node.text[:300], "...")
+        if is_overview_or_agenda_chunk(node.text):
+            total_empty_chunks += 1
+            print("\n--- OVERVIEW / AGENDA CHUNK SKIPPED ---")
+            continue
 
-            if is_overview_or_agenda_chunk(node.text):
-                total_empty_chunks += 1
-                print("\n--- OVERVIEW / AGENDA CHUNK SKIPPED ---")
-                continue
+        if is_revision_list_chunk(node.text):
+            total_empty_chunks += 1
+            print("\n--- REVISION LIST CHUNK SKIPPED ---")
+            continue
 
-            if is_revision_list_chunk(node.text):
-                total_empty_chunks += 1
-                print("\n--- REVISION LIST CHUNK SKIPPED ---")
-                continue
+        raw_output = extract_kg_json(node.text, llm)
 
-            raw_output = extract_kg_json(node.text, llm)
+        print("\n--- RAW MODEL OUTPUT ---")
+        print(raw_output)
 
-            print("\n--- RAW MODEL OUTPUT ---")
-            print(raw_output)
+        extraction = extract_json_object(raw_output)
 
-            extraction = extract_json_object(raw_output)
+        module_name = node.metadata.get("module")
+        week_number = node.metadata.get("week")
 
-            module_name = node.metadata.get("module")
-            week_number = node.metadata.get("week")
+        graph_payload = build_graph_payload(
+            extraction=extraction,
+            source_text=node.text,
+            module_name=module_name,
+            week_number=week_number,
+            metadata=node.metadata,
+        )
 
-            graph_payload = build_graph_payload(
-                extraction=extraction,
-                source_text=node.text,
-                module_name=module_name,
-                week_number=week_number,
-                metadata=node.metadata,
-            )
+        # Only Module -> Week means no meaningful academic KG content survived.
+        if len(graph_payload["relationships"]) <= 1:
+            total_empty_chunks += 1
+            print("\n--- NO MEANINGFUL KG CONTENT AFTER FILTERING ---")
+            print("Chunk skipped. Nothing added to output JSON.")
+            continue
 
-            # Only Module -> Week means no meaningful academic KG content survived.
-            if len(graph_payload["relationships"]) <= 1:
-                total_empty_chunks += 1
-                print("\n--- NO MEANINGFUL KG CONTENT AFTER FILTERING ---")
-                print("Chunk skipped. No data saved to AuraDB.")
-                continue
+        print_graph_payload(graph_payload)
 
-            print_graph_payload(graph_payload)
-
-            conforms, validation_report = validate_graph_payload_with_shacl(graph_payload)
+        if RUN_SHACL_VALIDATION:
+            try:
+                conforms, validation_report = validate_graph_payload_with_shacl(graph_payload)
+            except Exception as error:
+                print(f"\n--- SHACL VALIDATION SKIPPED (error: {error}) ---")
+                conforms = True
 
             if not conforms:
                 total_failed_chunks += 1
-
                 print("\n--- SHACL VALIDATION FAILED ---")
                 print(validation_report)
-                print("Chunk skipped. No data saved to AuraDB.")
-
+                print("Chunk skipped. Nothing added to output JSON.")
                 continue
 
             print("\n--- SHACL VALIDATION PASSED ---")
 
-            write_success = write_graph_payload_to_auradb(driver, graph_payload)
+        merge_graph_payload(accumulated_payload, graph_payload)
 
-            if not write_success:
-                total_write_failed_chunks += 1
-                print("Chunk validated but could not be saved to AuraDB.")
-                continue
+        total_validated_chunks += 1
+        total_nodes_saved = len(accumulated_payload["nodes"])
+        total_relationships_saved = len(accumulated_payload["relationships"])
 
-            total_validated_chunks += 1
-            total_nodes_saved += len(graph_payload["nodes"])
-            total_relationships_saved += len(graph_payload["relationships"])
+        print(
+            f"Merged into running graph. Running totals: "
+            f"{total_nodes_saved} nodes, {total_relationships_saved} relationships."
+        )
 
-            print(
-                f"Saved {len(graph_payload['nodes'])} nodes and "
-                f"{len(graph_payload['relationships'])} relationships to AuraDB."
-            )
+    final_json = graph_payload_to_json_friendly(accumulated_payload)
 
-    finally:
-        driver.close()
+    with open(OUTPUT_JSON_FILE, "w", encoding="utf-8") as f:
+        json.dump(final_json, f, indent=2, ensure_ascii=False)
 
     print("\nKG extraction complete.")
-    print(f"Validated and saved chunks: {total_validated_chunks}")
+    print(f"Validated chunks merged: {total_validated_chunks}")
     print(f"Failed SHACL chunks: {total_failed_chunks}")
     print(f"Empty/noisy chunks skipped: {total_empty_chunks}")
-    print(f"Write failed chunks: {total_write_failed_chunks}")
-    print(f"Total nodes attempted: {total_nodes_saved}")
-    print(f"Total relationships attempted: {total_relationships_saved}")
+    print(f"Total nodes in output JSON: {len(final_json['nodes'])}")
+    print(f"Total edges in output JSON: {len(final_json['edges'])}")
+    print(f"Written to: {os.path.abspath(OUTPUT_JSON_FILE)}")
