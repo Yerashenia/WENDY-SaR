@@ -7,6 +7,7 @@ class AnthropicProvider:
 
         self.client = anthropic.Anthropic()
         self.model = model
+        self.cost_enabled = True
 
 
     def generate(self, prompt):
@@ -22,4 +23,13 @@ class AnthropicProvider:
             ]
         )
 
-        return response.content[0].text
+
+        return {
+            "text": response.content[0].text,
+            "input_tokens": response.usage.input_tokens,
+            "output_tokens": response.usage.output_tokens,
+            "total_tokens":
+                response.usage.input_tokens
+                +
+                response.usage.output_tokens
+        }

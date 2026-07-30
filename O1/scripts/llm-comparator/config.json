@@ -7,16 +7,16 @@
 
     "claude": {
       "enabled": false,
-      "model": "claude-3-5-sonnet-latest"
+      "model": "claude-sonnet-5"
     },
 
     "gemini": {
-      "enabled": false,
-      "model": "gemini-2.5-flash"
+      "enabled": true,
+      "model": "gemini-3.6-flash"
     },
 
     "llama": {
-      "enabled": true,
+      "enabled": false,
       "model": "llama3"
     }
   },

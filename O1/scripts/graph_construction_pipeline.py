@@ -1804,6 +1804,9 @@ if __name__ == "__main__":
         )
 
     # Save Ontology Knowledge Graph JSON
+    Path(OUTPUT_JSON_FILE).parent.mkdir(parents=True, exist_ok=True)
+    Path(EVIDENCE_JSON_FILE).parent.mkdir(parents=True, exist_ok=True)
+
     final_json = graph_payload_to_json_friendly(accumulated_payload)
     with open(OUTPUT_JSON_FILE, "w", encoding="utf-8") as f:
         json.dump(final_json, f, indent=2, ensure_ascii=False)

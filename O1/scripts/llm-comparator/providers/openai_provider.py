@@ -4,8 +4,10 @@ from openai import OpenAI
 class OpenAIProvider:
 
     def __init__(self, model):
+
         self.client = OpenAI()
         self.model = model
+        self.cost_enabled = True
 
 
     def generate(self, prompt):
@@ -20,4 +22,11 @@ class OpenAIProvider:
             ]
         )
 
-        return response.choices[0].message.content
+        usage = response.usage
+
+        return {
+            "text": response.choices[0].message.content,
+            "input_tokens": usage.prompt_tokens,
+            "output_tokens": usage.completion_tokens,
+            "total_tokens": usage.total_tokens
+        }
