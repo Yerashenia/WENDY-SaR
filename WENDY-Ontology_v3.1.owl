@@ -1,0 +1,1436 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.example.org/4COSC002W#"
+     xml:base="http://www.example.org/4COSC002W"
+     xmlns:mfc="http://www.example.org/4COSC002W#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.example.org/4COSC002W">
+        <rdfs:comment>OWL ontology representing the general structure of a university module across a 12-week semester.</rdfs:comment>
+        <rdfs:label>University Module Ontology</rdfs:label>
+        <owl:versionInfo>4.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/4COSC002W#hasAssessment -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#hasAssessment">
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Module"/>
+                    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+        <rdfs:comment>Relates a Week or Module to an Assessment associated with it.</rdfs:comment>
+        <rdfs:label>has assessment</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#hasResource -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#hasResource">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Week"/>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>Relates a Week to a learning Resource available for that week.</rdfs:comment>
+        <rdfs:label>has resource</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#hasTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#hasTopic">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Week"/>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:comment>Relates a Week to the mathematical Topic(s) taught in that week.</rdfs:comment>
+        <rdfs:label>has topic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#hasWeek -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#hasWeek">
+        <owl:inverseOf rdf:resource="http://www.example.org/4COSC002W#isWeekOf"/>
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Module"/>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Week"/>
+        <rdfs:comment>Relates a Module to one of its weekly study units.</rdfs:comment>
+        <rdfs:label>has week</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#isPreparedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#isPreparedBy">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#isReviewedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#isReviewedIn">
+        <owl:inverseOf rdf:resource="http://www.example.org/4COSC002W#reviewsTopic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#isRevisitedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#isRevisitedIn">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#isTestedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#isTestedBy">
+        <owl:inverseOf rdf:resource="http://www.example.org/4COSC002W#testsKnowledgeOf"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#isWeekOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#isWeekOf">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Week"/>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Module"/>
+        <rdfs:comment>Inverse of hasWeek. Relates a Week back to its parent Module.</rdfs:comment>
+        <rdfs:label>is week of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#preparedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#preparedBy">
+        <owl:inverseOf rdf:resource="http://www.example.org/4COSC002W#preparesFor"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#preparesFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#preparesFor">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#reviewsTopic -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#reviewsTopic">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#revisits -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#revisits">
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#testsKnowledgeOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.example.org/4COSC002W#testsKnowledgeOf">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+        <rdfs:range rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/4COSC002W#academicYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.org/4COSC002W#academicYear">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Module"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The academic year in which the module runs.</rdfs:comment>
+        <rdfs:label>academic year</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#assessmentMonth -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.org/4COSC002W#assessmentMonth">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The month in which the assessment is scheduled to take place (eg January).</rdfs:comment>
+        <rdfs:label>assessment month</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#isSummative -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.org/4COSC002W#isSummative">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment>Boolean flag indicating whether an assessment is summative (true) or formative (false).</rdfs:comment>
+        <rdfs:label>is summative</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#moduleCode -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.org/4COSC002W#moduleCode">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Module"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>The official institutional code for the module.</rdfs:comment>
+        <rdfs:label>module code</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#weekNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.org/4COSC002W#weekNumber">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Week"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment>The sequential number of the week within the module (1–12).</rdfs:comment>
+        <rdfs:label>week number</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#weightingPercentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.example.org/4COSC002W#weightingPercentage">
+        <rdfs:domain rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <rdfs:comment>The percentage contribution of a summative assessment to the final module grade.</rdfs:comment>
+        <rdfs:label>weighting percentage</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Assessment -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Assessment">
+        <rdfs:comment>Any formal or formative assessment associated with the module.</rdfs:comment>
+        <rdfs:label>Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Coursework -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Coursework">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#SummativeAssessment"/>
+        <rdfs:comment>An assignment or project completed outside scheduled sessions and submitted for assessment.</rdfs:comment>
+        <rdfs:label>Coursework</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Exam -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Exam">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#SummativeAssessment"/>
+        <rdfs:comment>A formal summative examination contributing to the module grade.</rdfs:comment>
+        <rdfs:label>Exam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#FormativeAssessment -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#FormativeAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+        <rdfs:comment>An assessment used for learning and feedback purposes, not contributing to the final module grade.</rdfs:comment>
+        <rdfs:label>Formative Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#InClassTest -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#InClassTest">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#SummativeAssessment"/>
+        <rdfs:comment>A timed in-class test (ICT) contributing to the module grade.</rdfs:comment>
+        <rdfs:label>In-Class Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#LabPractical -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#LabPractical">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#SummativeAssessment"/>
+        <rdfs:comment>A hands-on practical session or experiment conducted in a laboratory setting, assessed based on performance and/or report.</rdfs:comment>
+        <rdfs:label>Lab Practical</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#LectureNotes -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#LectureNotes">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>Lecture slides, provided per week.</rdfs:comment>
+        <rdfs:label>Lecture Notes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#LectureVideoRecording -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#LectureVideoRecording">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>A recorded video of the lecture for a given week, hosted on Panopto.</rdfs:comment>
+        <rdfs:label>Lecture Video Recording</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#MockTest -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#MockTest">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#FormativeAssessment"/>
+        <rdfs:comment>A formative practice test used to prepare students for a formal assessment.</rdfs:comment>
+        <rdfs:label>Mock Test</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Module -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Module">
+        <rdfs:comment>A university module.</rdfs:comment>
+        <rdfs:label>Module</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#PanoptoRecordings -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#PanoptoRecordings">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>The full archive of all lecture video recordings hosted on Panopto.</rdfs:comment>
+        <rdfs:label>Panopto Recordings</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Portfolio -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Portfolio">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#SummativeAssessment"/>
+        <rdfs:comment>A curated collection of student work compiled over the module and assessed as a whole.</rdfs:comment>
+        <rdfs:label>Portfolio</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#ReadingList -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#ReadingList">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>A list of recommended texts and readings for the module.</rdfs:comment>
+        <rdfs:label>Reading List</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Resource -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Resource">
+        <rdfs:comment>Any learning resource associated with the module or a specific week.</rdfs:comment>
+        <rdfs:label>Resource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#SeminarTaskAnswers -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#SeminarTaskAnswers">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>Worked answers to seminar tasks.</rdfs:comment>
+        <rdfs:label>Seminar Task Answers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#SeminarTasks -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#SeminarTasks">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>Practice tasks and exercises associated with a week&apos;s seminar session.</rdfs:comment>
+        <rdfs:label>Seminar Tasks</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#SummativeAssessment -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#SummativeAssessment">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Assessment"/>
+        <rdfs:comment>A formal assessment that contributes to the module grade.</rdfs:comment>
+        <rdfs:label>Summative Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Topic">
+        <rdfs:comment>A theoretical topic or subject area taught within a week of the module.</rdfs:comment>
+        <rdfs:label>Topic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week">
+        <rdfs:comment>A single week of teaching within a university module. Every semester consists of 12 weeks.</rdfs:comment>
+        <rdfs:label>Week</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week1 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week1">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week10 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week10">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week11 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week11">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week12 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week12">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week2 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week2">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week3 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week3">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week4 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week4">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week5 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week5">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week6 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week6">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week7 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week7">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week8 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week8">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week9 -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#Week9">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Week"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#YouTubeVideos -->
+
+    <owl:Class rdf:about="http://www.example.org/4COSC002W#YouTubeVideos">
+        <rdfs:subClassOf rdf:resource="http://www.example.org/4COSC002W#Resource"/>
+        <rdfs:comment>Supplementary video content.</rdfs:comment>
+        <rdfs:label>YouTube Videos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Assessment_FinalExam -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Assessment_FinalExam">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Exam"/>
+        <testsKnowledgeOf rdf:resource="http://www.example.org/4COSC002W#Resource_PanoptoArchive"/>
+        <testsKnowledgeOf rdf:resource="http://www.example.org/4COSC002W#Resource_YouTubeVideos"/>
+        <testsKnowledgeOf rdf:resource="http://www.example.org/4COSC002W#Week12_LectureNotes"/>
+        <testsKnowledgeOf rdf:resource="http://www.example.org/4COSC002W#Week12_LectureVideo"/>
+        <testsKnowledgeOf rdf:resource="http://www.example.org/4COSC002W#Week12_SeminarTasks"/>
+        <assessmentMonth>January</assessmentMonth>
+        <isSummative rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isSummative>
+        <weightingPercentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">60.0</weightingPercentage>
+        <rdfs:comment>The summative final exam for the module, held in January.</rdfs:comment>
+        <rdfs:label>Final Examination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Assessment_ICT -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Assessment_ICT">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#InClassTest"/>
+        <isSummative rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</isSummative>
+        <weightingPercentage rdf:datatype="http://www.w3.org/2001/XMLSchema#float">40.0</weightingPercentage>
+        <rdfs:comment>Summative in-class test held during Week 9 (Probability week), contributing 40% to the module grade.</rdfs:comment>
+        <rdfs:label>In-Class Test (ICT)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Assessment_MockTest_Week11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Assessment_MockTest_Week11">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#MockTest"/>
+        <isSummative rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSummative>
+        <rdfs:comment>Formative mock test in Week 11, used to prepare students for the final exam.</rdfs:comment>
+        <rdfs:label>Mock Test (Week 11)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Assessment_MockTest_Week7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Assessment_MockTest_Week7">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#MockTest"/>
+        <isSummative rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</isSummative>
+        <rdfs:comment>Formative mock test in Week 7, used to prepare students for the upcoming ICT assessment.</rdfs:comment>
+        <rdfs:label>Mock Test (Week 7)</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#MathematicsForComputing -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#MathematicsForComputing">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Module"/>
+        <hasAssessment rdf:resource="http://www.example.org/4COSC002W#Assessment_FinalExam"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week1"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week10"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week11"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week12"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week2"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week3"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week4"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week5"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week6"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week7"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week8"/>
+        <hasWeek rdf:resource="http://www.example.org/4COSC002W#Week9"/>
+        <academicYear>2024</academicYear>
+        <moduleCode>4COSC002W.1</moduleCode>
+        <rdfs:label>Mathematics for Computing</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Resource_PanoptoArchive -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Resource_PanoptoArchive">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#PanoptoRecordings"/>
+        <rdfs:comment>Complete archive of all recorded lectures for the module on Panopto.</rdfs:comment>
+        <rdfs:label>Panopto Full Archive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Resource_ReadingList -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Resource_ReadingList">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#ReadingList"/>
+        <rdfs:comment>Curated reading list for the full module.</rdfs:comment>
+        <rdfs:label>Reading List</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Resource_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Resource_SeminarTaskAnswers">
+        <rdfs:comment>Consolidated worked answers for seminar tasks across all weeks.</rdfs:comment>
+        <rdfs:label>Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Resource_YouTubeVideos -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Resource_YouTubeVideos">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#YouTubeVideos"/>
+        <rdfs:comment>Supplementary YouTube video content for the module.</rdfs:comment>
+        <rdfs:label>YouTube Videos</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_ExamRevision -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_ExamRevision">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Exam Revision</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_Functions -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_Functions">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Functions</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_GraphTheory -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_GraphTheory">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Graph Theory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_Intervals -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_Intervals">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Intervals</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_Logics -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_Logics">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Logics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_MatricesPart1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_MatricesPart1">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Matrices Part 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_MatricesPart2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_MatricesPart2">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Matrices Part 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_ModuleIntroduction -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_ModuleIntroduction">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Module Introduction</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_NumberTheory -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_NumberTheory">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Number Theory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_Probability -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_Probability">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Probability</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_Relations -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_Relations">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Relations</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_Sequences -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_Sequences">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Sequences</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_SetTheory -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_SetTheory">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Set Theory</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_StatisticalApplication -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_StatisticalApplication">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Statistical Application</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Topic_StatisticsBasics -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Topic_StatisticsBasics">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Topic"/>
+        <rdfs:label>Statistics Basics</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week1">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week1"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week1_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week1_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week1_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week1_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_ModuleIntroduction"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_NumberTheory"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_Sequences"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week10">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week10"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week10_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week10_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week10_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week10_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_StatisticsBasics"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week10_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week10_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 10 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week10_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week10_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 10 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week10_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week10_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 10 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week10_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week10_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 10 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week11">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week11"/>
+        <hasAssessment rdf:resource="http://www.example.org/4COSC002W#Assessment_MockTest_Week11"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week11_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week11_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week11_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week11_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_StatisticalApplication"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week11_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week11_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 11 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week11_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week11_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 11 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week11_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week11_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 11 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week11_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week11_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 11 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week12">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week12"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week12_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week12_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week12_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week12_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_ExamRevision"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week12_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week12_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 12 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week12_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week12_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 12 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week12_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week12_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 12 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week12_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week12_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 12 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week1_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week1_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 1 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week1_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week1_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 1 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week1_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week1_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 1 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week1_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week1_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 1 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week2">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week2"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week2_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week2_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week2_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week2_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_Intervals"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_SetTheory"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week2_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week2_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 2 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week2_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week2_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 2 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week2_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week2_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 2 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week2_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week2_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 2 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week3">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week3"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week3_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week3_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week3_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week3_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_Functions"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_Relations"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week3_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week3_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 3 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week3_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week3_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 3 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week3_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week3_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 3 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week3_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week3_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 3 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week4">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week4"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week4_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week4_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week4_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week4_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_Logics"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week4_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week4_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 4 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week4_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week4_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 4 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week4_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week4_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 4 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week4_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week4_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 4 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week5">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week5"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week5_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week5_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week5_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week5_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_GraphTheory"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week5_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week5_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 5 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week5_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week5_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 5 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week5_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week5_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 5 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week5_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week5_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 5 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week6">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week6"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">6</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week7 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week7">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week7"/>
+        <hasAssessment rdf:resource="http://www.example.org/4COSC002W#Assessment_MockTest_Week7"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week7_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week7_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week7_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week7_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_MatricesPart1"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week7_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week7_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 7 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week7_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week7_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 7 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week7_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week7_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 7 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week7_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week7_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 7 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week8">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week8"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week8_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week8_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week8_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week8_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_MatricesPart2"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">8</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week8_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week8_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 8 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week8_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week8_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 8 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week8_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week8_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 8 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week8_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week8_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 8 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week9 -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week9">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#Week9"/>
+        <hasAssessment rdf:resource="http://www.example.org/4COSC002W#Assessment_ICT"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week9_LectureNotes"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week9_LectureVideo"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week9_SeminarTaskAnswers"/>
+        <hasResource rdf:resource="http://www.example.org/4COSC002W#Week9_SeminarTasks"/>
+        <hasTopic rdf:resource="http://www.example.org/4COSC002W#Topic_Probability"/>
+        <weekNumber rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9</weekNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week9_LectureNotes -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week9_LectureNotes">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureNotes"/>
+        <rdfs:label>Week 9 Lecture Notes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week9_LectureVideo -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week9_LectureVideo">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#LectureVideoRecording"/>
+        <rdfs:label>Week 9 Lecture Video Recording</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week9_SeminarTaskAnswers -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week9_SeminarTaskAnswers">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTaskAnswers"/>
+        <rdfs:label>Week 9 Seminar Task Answers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.example.org/4COSC002W#Week9_SeminarTasks -->
+
+    <owl:NamedIndividual rdf:about="http://www.example.org/4COSC002W#Week9_SeminarTasks">
+        <rdf:type rdf:resource="http://www.example.org/4COSC002W#SeminarTasks"/>
+        <rdfs:label>Week 9 Seminar Tasks</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week1">
+        <rdfs:comment>The first week of the module.</rdfs:comment>
+        <rdfs:label>Week 1</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week10">
+        <rdfs:comment>The tenth week of the module.</rdfs:comment>
+        <rdfs:label>Week 10</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week11">
+        <rdfs:comment>The eleventh week of the module.</rdfs:comment>
+        <rdfs:label>Week 11</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week12">
+        <rdfs:comment>The twelfth and final week of the module.</rdfs:comment>
+        <rdfs:label>Week 12</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week2">
+        <rdfs:comment>The second week of the module.</rdfs:comment>
+        <rdfs:label>Week 2</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week3">
+        <rdfs:comment>The third week of the module.</rdfs:comment>
+        <rdfs:label>Week 3</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week4">
+        <rdfs:comment>The fourth week of the module.</rdfs:comment>
+        <rdfs:label>Week 4</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week5">
+        <rdfs:comment>The fifth week of the module.</rdfs:comment>
+        <rdfs:label>Week 5</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week6">
+        <rdfs:comment>No new taught content. The week is for independent study of Weeks 1–5 content in preparation for the ICT assessment.</rdfs:comment>
+        <rdfs:comment>The sixth week of the module semester. In many modules this is designated as a Reading Week with no new taught content, used for independent study and exam preparation.</rdfs:comment>
+        <rdfs:label>Week 6</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week7">
+        <rdfs:comment>The seventh week of the module.</rdfs:comment>
+        <rdfs:label>Week 7</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week8">
+        <rdfs:comment>The eighth week of the module.</rdfs:comment>
+        <rdfs:label>Week 8</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.example.org/4COSC002W#Week9">
+        <rdfs:comment>The ninth week of the module.</rdfs:comment>
+        <rdfs:label>Week 9</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
